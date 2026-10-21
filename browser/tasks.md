@@ -28,3 +28,7 @@ Do not enter credentials. Do not click through a terms gate without the user's y
    - Wayne County rank for outcomes, factors and clinical care for 2015, 2018, 2023, 2024, 2025
 
 7. Wayne County Commission agendas and minutes: March 2023 appointment and salary; any item on AME Higher
+
+## Status 2026-10-21
+- Done: FEC disbursements; Wayne Watch Drive files; County Health Rankings (see sources/log.md).
+- Open: LARA (needs human check ticked in the pane), Illinois SOS One Health entities, Wayne Commission minutes (Mar 2023), Senate eFD (needs user yes).
