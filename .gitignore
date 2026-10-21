@@ -1,0 +1,10 @@
+books/
+transcripts/
+scratch/
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
+*.pdf
+!sources/public-records/*.pdf

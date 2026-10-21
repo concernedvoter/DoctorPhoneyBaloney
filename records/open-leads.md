@@ -1,0 +1,11 @@
+# Open leads
+- Who funds Fig and Olive Action Inc (501(c)(4); donors undisclosed)
+- Wall Street Journal Oct 10 article (Severns, DeBarro, Dapena): obtain and verify
+- Has El-Sayed disavowed American Priorities since July
+- $100,000 Fig and Olive to New Yorkers for Lower Costs: verify in New York filings
+- Confirm Waqas equals Javed; Tracy, CA Jukaku address
+- eFD filing dates; MSU survey; Guardian "UK democracy" and obesity pieces
+- Wayback capture of the 2011 HuffPost byline
+- County Health Rankings for Wayne County: 2015, 2018, 2023, 2024, 2025 ranks and clinical care sub-rank
+- Why the campaign amended eight reports in Aug and Oct 2026
+- Campaign payments to a nonprofit tied to a Detroit pastor (about $75,000, Free Beacon): verify in FEC data
