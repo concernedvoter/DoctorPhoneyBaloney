@@ -67,7 +67,7 @@ Ratings follow facts/claims.md. Section numbers refer to deliverables/dossier-el
 | Dec 9, 1991 | Boone County, Missouri court order changes his name to Abdulrahman Mohamed El-Sayed (case 1391CC044966) | Documented | 02 |
 | 2006 to 2007 | Muslim Students' Association vice president, University of Michigan | Reported | 03 |
 | 2007 | Bachelor's degree; gives student commencement address | Documented (university release) | 03 |
-| 2009 to 2014 | Oxford DPhil as a Rhodes Scholar; Columbia MD, class of 2014; no medical license held | Documented for the MD and no license; Reported for the rest for the MD and no license; Reported for the rest | 04, 18 |
+| 2009 to 2014 | Oxford DPhil as a Rhodes Scholar; Columbia MD, class of 2014; no medical license held | Documented for the MD and no license; Reported for the rest | 04, 18 |
 | 2012 | Group letter backing President Morsi attributed to him | Documented (NYT, claim E01) | 12 |
 | Aug 25, 2015 | Begins as Detroit executive director of public health | Reported | 06 |
 | 2016 | Tells a Detroit audience he holds dual U.S. and Egyptian citizenship; his campaign now calls it an error | Reported | 06, 22 |
