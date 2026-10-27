@@ -10,9 +10,9 @@ books/
 scratch/
 transcripts/
 docs/links.local.md
-deliverables/_dossier-el-sayed.full.md
-deliverables/graphics/src/
-deliverables/graphics/*.png
+# deliverables/_dossier-el-sayed.full.md
+# deliverables/graphics/src/
+# deliverables/graphics/*.png
 *_files/
 
 # individual donor rows from FEC pulls (re-create with tools/fec_screen.py)

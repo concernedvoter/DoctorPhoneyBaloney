@@ -141,3 +141,10 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 - README.md rewritten as a neutral, open method guide (principles, ratings, tools, process, FEC steps, agent use, bias controls, ethics, limits, pre-publication checks).
 - tools/fec_screen.py added (copy of the screen script; path references updated in records/fec-method.md and records/fec-screen/FINDINGS.md).
 - Dossier section 19: added campaign finance open items and medical debt figure reconciliation (repo and live dossier, rev 153).
+
+## 2026-10-27 Transcript: staffer on Medicare for All (X video 2114778397133897728)
+- Source: video posted Oct 26, 2026 by Drew Berkemeyer (Daily Wire reporter) at x.com/Berkemeyer_Drew/status/2114793220475691033, framed as a staffer admission. Transcribed locally; single speaker, 2 min 12 sec, machine transcript.
+- Not established: speaker name and title (only the poster's label), where and how the conversation was recorded, whether the clip is edited, the linked Daily Wire article (not located; the July 20 Daily Wire article found is a different story).
+- Content: taxes 'certainly' rise, amount unknown, 'neither does Abdul'; the 2020 book is a Canadian-style single payer; union members would trade away their plans but could bargain wages; 'what he does when he's in the seat' matters more than what he says. Staffer is an opinion about the candidate, not a statement by him.
+- Cross-check: Bridge Michigan Sept 25, 2026 fact check (tax claim 'likely correct'; he backed off a 2020 podcast line about ending private insurance; campaign did not say how it would pay). Added claim P20.
+- Note: a staffer remark is context only, as with relatives and associates. Rogers parity: no equivalent staff-recording check run.
