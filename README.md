@@ -116,4 +116,7 @@ If you find an error or a better source, open an issue or pull request with the 
 - Keep books, full transcripts, saved copyrighted pages and journal full texts out of the public repo. Link to them instead.
 - Review records/timeline-family.md and any court records for private individuals before release.
 - Remove or relocate any FEC CSV exports containing individual donor rows.
-- Set a license that fits your intent. This repo does not yet include one.
+- Check the license fits your intent. This repo uses the GNU General Public License v3.0 (see LICENSE); derivative works must stay open under the same terms.
+
+## License
+GNU General Public License v3.0. See LICENSE. Third-party documents cited here keep their own copyright and are not covered by it (see sources/EXCLUDED.md).
