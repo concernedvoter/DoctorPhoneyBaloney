@@ -1,0 +1,10 @@
+books/
+transcripts/audio/
+transcripts/*.json
+transcripts/*.wav
+*_files/
+sources/public-records/
+deliverables/_dossier-el-sayed.full.md
+deliverables/graphics/src/
+deliverables/graphics/*.png
+records/fec-screen/*.csv

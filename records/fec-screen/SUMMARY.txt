@@ -1,0 +1,22 @@
+FEC screen run 2026-10-27 09:37
+
+C00902668 Abdul for U.S. Senate
+  foreign-address rows: 4, total $550.00
+  organization rows: 29780, total $8888831.61
+
+C00919373 Fighting for Michigan PAC
+  foreign-address rows: 0, total $0.00
+  organization rows: 73, total $582250.00
+
+C00881011 Unity and Justice Fund
+  foreign-address rows: 0, total $0.00
+  organization rows: 1, total $1826.77
+
+C00932723 American Priorities
+  foreign-address rows: 0, total $0.00
+  organization rows: 2, total $99872.29
+
+C00932715 Fig and Olive Action PAC
+  foreign-address rows: 0, total $0.00
+  organization rows: 0, total $0.00
+

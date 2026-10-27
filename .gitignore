@@ -1,10 +1,35 @@
-books/
-transcripts/
-scratch/
+# secrets and system
 .env
 .env.*
 *.key
 *.pem
 .DS_Store
-*.pdf
-!sources/public-records/*.pdf
+
+# local only: private working material and large media
+books/
+scratch/
+transcripts/
+docs/links.local.md
+deliverables/_dossier-el-sayed.full.md
+deliverables/graphics/src/
+deliverables/graphics/*.png
+*_files/
+
+# individual donor rows from FEC pulls (re-create with tools/fec_screen.py)
+records/fec-screen/*.csv
+
+# copyrighted or third-party works: not redistributed (see sources/EXCLUDED.md)
+sources/public-records/*.html
+sources/public-records/109.pdf
+sources/public-records/CAIR*.pdf
+sources/public-records/3222df880ac21479dc3b9010394398e217bbc0fd-2550x3300.webp
+sources/public-records/7e64ebc46248529b47746da1df65cc2d6839de62-5887x3004.webp
+sources/text/tribune-2004-10-14-iara-raid.md
+sources/text/missourian-c1991-arab-conference.md
+sources/text/109.md
+sources/text/cair-*.md
+sources/text/highlights-of-testimony-in-second-holy-land-foundation-trial.md
+sources/text/the-holy-land-foundation-trial-and-the-three-muslim-groups-j.md
+sources/text/u-s-designates-three-muslim-brotherhood-chapters-as-terroris.md
+sources/text/u-s-v-hlf-criminal-action-no-3-04-cr-240-g-n-d-tex-judgment-.md
+sources/text/us-v-holy-land-foundation-for-relief-and-development-et-al.md

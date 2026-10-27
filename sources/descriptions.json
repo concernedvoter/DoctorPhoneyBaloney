@@ -1,0 +1,374 @@
+{
+ "09-10560-cr0-wpd-1": {
+  "kind": "opinion",
+  "tier": "primary",
+  "date": "2012-01-13 (revised)",
+  "desc": "US v. El-Mezain (HLF retrial appeal), 5th Cir. No. 09-10560, 664 F.3d 467. Zero CAIR/ISNA/NAIT mentions (log). Brotherhood and Palestine Committee background."
+ },
+ "10-10590-cr0-wpd-2011-12-07": {
+  "kind": "opinion",
+  "tier": "primary",
+  "date": "2011-12-27 (revised)",
+  "desc": "Earlier revision of the same El-Mezain slip opinion (filed 2011-12-07). Not line-compared with the later revision."
+ },
+ "u-s-v-el-mezain-664-f-3d-467-1": {
+  "kind": "opinion",
+  "tier": "primary",
+  "date": "2012-01-13",
+  "desc": "El-Mezain, 664 F.3d 467, with Case/Document header lines; same opinion as 09-10560 (text nearly identical)."
+ },
+ "177544": {
+  "kind": "opinion",
+  "tier": "primary",
+  "date": "2010-10-20",
+  "desc": "US v. Holy Land Found. (NAIT, movant), 5th Cir. No. 09-10875 (F.3d pp. 685-). Attachment A list of 246; NAIT under \"members of the U.S. Muslim Brotherhood\"; court: untested allegation, Solis \"ample evidence\" statement exceeded bounds."
+ },
+ "1425": {
+  "kind": "order",
+  "tier": "primary",
+  "date": "2009-07-01",
+  "desc": "Doc 1356, Judge Solis memorandum opinion, 3:04-CR-0240-P. CAIR amicus, prima facie case of CAIR involvement, sealing of list. KEY."
+ },
+ "uscourts-txnd-3-04-cr-00240-0": {
+  "kind": "order",
+  "tier": "primary",
+  "date": "2006-12-08",
+  "desc": "Doc 486, Judge Fish, motion to strike surplusage; allows indictment language on Muslim Brotherhood network."
+ },
+ "uscourts-txnd-3-04-cr-00240-7": {
+  "kind": "order",
+  "tier": "primary",
+  "date": "2007-05-15",
+  "desc": "Doc 635, jury data disclosure order. No relevance."
+ },
+ "uscourts-txnd-3-04-cr-00240-18": {
+  "kind": "order",
+  "tier": "primary",
+  "date": "2009-03-26",
+  "desc": "Doc 1273, N.D. Tex. HLF order (11 pp); no CAIR mention per log review."
+ },
+ "trtxn001": {
+  "kind": "jury-instructions",
+  "tier": "primary",
+  "date": "2007-09-19",
+  "desc": "Judge Fish jury instructions, 36 counts. No CAIR mention."
+ },
+ "422": {
+  "kind": "brief",
+  "tier": "primary",
+  "date": "2007",
+  "desc": "Government trial brief, US v. HLF (63 pp). Source of the unindicted co-conspirator list attachment."
+ },
+ "423": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "2007",
+  "desc": "Attachment A to trial brief: List of Unindicted Co-conspirators. CAIR #11; Omar Ahmad aka Omar Yehia #43; Nihad Awad NOT listed."
+ },
+ "479": {
+  "kind": "brief",
+  "tier": "primary",
+  "date": "2007-09-04",
+  "desc": "Doc 824, Government memorandum in opposition to CAIR motion for leave to file amicus."
+ },
+ "730": {
+  "kind": "brief",
+  "tier": "primary (party filing)",
+  "date": "2007",
+  "desc": "CAIR amicus curiae brief opposing public naming of co-conspirators. CAIR own argument."
+ },
+ "asset-upload-file142-36171": {
+  "kind": "brief",
+  "tier": "primary",
+  "date": "2008",
+  "desc": "Government amended memorandum in opposition to ISNA/NAIT motion for equitable relief (Attachment A, expungement)."
+ },
+ "1952": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "2008-09-29",
+  "desc": "Agent Lara Burns testimony (HLF retrial): reads Ex 3-78 agenda list \"IAP, HLF, UASR, Coordination, CAIR\"; says CAIR did not exist before Philadelphia meeting. Court transcript, line numbers stripped. Identical copy of 1198."
+ },
+ "1198": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "2008-09-29",
+  "desc": "Same testimony as 1952 (text identical, different file bytes). Prefer 1952 or 1198, never both."
+ },
+ "1521": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "2008-09-30",
+  "desc": "Agent Burns testimony 9/30/2008 (cross by Jonas). Not fully read per log."
+ },
+ "1199": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "2008-10-07",
+  "desc": "Agent Burns testimony 10/7/2008 (Dratel cross): CAIR \"created after the Philadelphia meeting\"."
+ },
+ "2039": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993-10-02",
+  "desc": "FBI wiretap/recording transcript of Philadelphia meeting (MTGB 19931002), 378 pp. Speaker key: Om = Omar Ahmad; \"Ni = Nihad (LNU)\" not identified as Awad. 0 CAIR hits."
+ },
+ "1116": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt with speaker key (Government exhibit)."
+ },
+ "719": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR; speaker key lists Gawad (LNU))."
+ },
+ "720": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "721": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "722": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "723": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "724": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "780": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "836": {
+  "kind": "transcript",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Philadelphia meeting excerpt exhibit (OCR)."
+ },
+ "701": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1993",
+  "desc": "Scanned exhibit, image-heavy; OCR is poor. View the PDF page images."
+ },
+ "1519": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1993-09-13",
+  "desc": "Recorded call Ashqar/Baker/\"Omar Yehya\" planning the Oct 2 meeting (OCR). \"Nihad and Osama\" proposed paper writers, first name only. No CAIR (not yet formed)."
+ },
+ "3654": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "n.d.",
+  "desc": "Ashqar Search 7: phone and fax list, 35 names; #25 Omar Yehya, #32 Nihad Awad (Minneapolis). OCR noisy."
+ },
+ "717": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1994-07-30",
+  "desc": "Gov Ex 3-78 (Palestine Committee meeting agenda; handwritten Arabic with English translation). CAIR appears on a separate line with \"Coordination\". Arabic word needs independent translation. KEY."
+ },
+ "440": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1991-92",
+  "desc": "Gov Ex 003-0005, Palestine Committee material (Arabic, OCR poor)."
+ },
+ "442": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1991-92",
+  "desc": "Gov Ex 003-0017 Palestine Committee material (Arabic, OCR poor)."
+ },
+ "443": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1991-92",
+  "desc": "Gov Ex 003-0026 bylaws of the Palestine Committee in North America and Canada (English)."
+ },
+ "445": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1991-92",
+  "desc": "Palestine Committee material, ISE-SW Bates 414-417 (Arabic, OCR poor)."
+ },
+ "2962": {
+  "kind": "exhibit",
+  "tier": "primary",
+  "date": "1991",
+  "desc": "Org chart \"Central Committee ... for the year 1991\": Palestine Committee structure (IAP, HLF, UASR). No CAIR. Identical copy of 438."
+ },
+ "109": {
+  "kind": "factsheet",
+  "tier": "advocacy",
+  "date": "n.d.",
+  "desc": "\"CAIR's Origins\" excerpt, 9 pp; publisher not identified in the file. Advocacy; cite only the documents it lists."
+ },
+ "cair-treasury-letter-final": {
+  "kind": "letter",
+  "tier": "advocacy (congressional)",
+  "date": "2025-10-14",
+  "desc": "Cotton/Stefanik letter to Treasury seeking CAIR investigation (OCR). Allegations, not findings."
+ },
+ "cair-letter-to-treasury-department-10-15-25-pdf": {
+  "kind": "letter",
+  "tier": "party (CAIR)",
+  "date": "2025-10-15",
+  "desc": "CAIR reply to the Treasury letter."
+ },
+ "cair-revisded": {
+  "kind": "paper",
+  "tier": "advocacy-leaning academic",
+  "date": "2025-11",
+  "desc": "GWU Program on Extremism, \"CAIR: Why History is Important\", Lara Burns (8 pp). Author may be the FBI agent who testified (unverified)."
+ },
+ "cair-s-familiar-dance": {
+  "kind": "paper",
+  "tier": "advocacy-leaning academic",
+  "date": "2025-10",
+  "desc": "GWU Program on Extremism, \"CAIR's Familiar Dance\", Barry Jonas and Lara Burns (6 pp); gives docket cite for Solis order."
+ },
+ "highlights-of-testimony-in-second-holy-land-foundation-trial": {
+  "kind": "web",
+  "tier": "advocacy (Charity & Security Network)",
+  "date": "~2008-09",
+  "desc": "Trial testimony summary page; verify against transcripts."
+ },
+ "office-of-public-affairs-federal-judge-hands-downs-sentences": {
+  "kind": "web",
+  "tier": "primary (DOJ press release)",
+  "date": "2009-05-27",
+  "desc": "DOJ release on HLF sentencing."
+ },
+ "the-holy-land-foundation-trial-and-the-three-muslim-groups-j": {
+  "kind": "web",
+  "tier": "reporting (JTA analysis blog)",
+  "date": "2010-11-26",
+  "desc": "Ron Kampeas, JTA; Ex 3-85 names ISNA and NAIT."
+ },
+ "u-s-designates-three-muslim-brotherhood-chapters-as-terroris": {
+  "kind": "web",
+  "tier": "reporting (HSToday)",
+  "date": "2026-01-13",
+  "desc": "Megan Norris; Treasury/State designations of three Brotherhood chapters. Primary pages not read."
+ },
+ "u-s-v-hlf-criminal-action-no-3-04-cr-240-g-n-d-tex-judgment-": {
+  "kind": "web",
+  "tier": "reporting (CaseMine page)",
+  "date": "n.d.",
+  "desc": "Case page, low relevance (jury selection matter). Page chrome noise at top."
+ },
+ "us-v-holy-land-foundation-for-relief-and-development-et-al": {
+  "kind": "web",
+  "tier": "advocacy (Investigative Project case page)",
+  "date": "n.d.",
+  "desc": "Case document index; CAIR appears only as link titles."
+ },
+ "gov-uscourts-mowd-80894-518-0": {
+  "kind": "filing",
+  "tier": "primary",
+  "date": "2010-06-23",
+  "desc": "US v. IARA, W.D. Mo. 4:07-cr-00087, Doc 518, govt witness list; mother listed as probable witness (former IARA employee)."
+ },
+ "2661666": {
+  "kind": "opinion",
+  "tier": "primary",
+  "date": "2012",
+  "desc": "Employment retaliation opinion (appears unrelated to this project; 43 hits on \"Ahmad\" are a plaintiff). Ignore unless the log says otherwise."
+ },
+ "nat-cert-m-elsayed-1990": {
+  "kind": "image",
+  "tier": "primary-ish (provenance unknown)",
+  "date": "1990-03-22",
+  "desc": "Naturalization certificate stub (U.S. District Court, Kansas City, Missouri), holder Mohamed El-Sayed Mohamed El-Sayed."
+ },
+ "nat-cert-f-elkomy-1990": {
+  "kind": "image",
+  "tier": "primary-ish (provenance unknown)",
+  "date": "1990-03-22",
+  "desc": "Naturalization certificate stub (U.S. District Court, Kansas City, Missouri), holder Fatten Fathy Elkomy."
+ },
+ "tribune-2004-10-14-iara-raid": {
+  "kind": "image",
+  "tier": "reporting (newspaper)",
+  "date": "2004-10-14",
+  "desc": "Columbia Daily Tribune front page, Thursday 2004-10-14: federal agents raid the Columbia office of the Islamic American Relief Agency (IARA-USA)."
+ },
+ "missourian-c1991-arab-conference": {
+  "kind": "image",
+  "tier": "reporting (newspaper)",
+  "date": "c.1991 (undated)",
+  "desc": "Columbia Missourian clipping, undated (Gulf War context, about early 1991): 'Local Arab conference targets ignorance' with photo of Mohamed El-Sayed and wife."
+ },
+ "casenet-boone-1991-name-change-docket": {
+  "kind": "image",
+  "tier": "primary (court docket, case header not shown)",
+  "date": "1991-12-09",
+  "desc": "Missouri CaseNet docket screenshot (court not shown in the cropped image): 1991 uncontested name change to Abdlrahman Mohamed El-Sayed, plus 2025 and 2026 records requests."
+ },
+ "transcript": {
+  "kind": "pdf",
+  "tier": "primary (NARA via FamilySearch)",
+  "date": "1990",
+  "desc": "Petition for Naturalization (Form N-405), Fatten Fathy Mohamed, U.S. District Court, Kansas City MO, filed and sworn 1990; FamilySearch copy of NARA Kansas City records."
+ },
+ "casenet-1388DR026716-docket": {
+  "kind": "image",
+  "tier": "primary (court docket, header not shown)",
+  "date": "1988-10-11",
+  "desc": "Missouri CaseNet docket, case 1388DR026716, Mohamed Mohamed v Fatten Mohamed (domestic relations, 13th Circuit number): 1988 motion to modify a dissolution decree as to child custody and child support."
+ },
+ "casenet-1391CC044966-docket": {
+  "kind": "image",
+  "tier": "primary (court docket)",
+  "date": "1991-12-09",
+  "desc": "Missouri CaseNet, case 1391CC044966, IN RE ABDULRAHMAN MOHAMED (Boone County, FC Change of Name). Four screenshots: header, parties, civil judgment, docket. CaseNet says it is not an official court record."
+ },
+ "casenet-1391CC044966-header": {
+  "kind": "image",
+  "tier": "primary (court docket)",
+  "date": "1991-12-09",
+  "desc": "Screenshot of CaseNet 1391CC044966 (header tab). Full transcription is in casenet-1391CC044966-docket."
+ },
+ "casenet-1391CC044966-parties": {
+  "kind": "image",
+  "tier": "primary (court docket)",
+  "date": "1991-11-14",
+  "desc": "Screenshot of CaseNet 1391CC044966 (parties tab). Full transcription is in casenet-1391CC044966-docket."
+ },
+ "casenet-1391CC044966-judgment": {
+  "kind": "image",
+  "tier": "primary (court docket)",
+  "date": "1991-12-09",
+  "desc": "Screenshot of CaseNet 1391CC044966 (judgment tab). Full transcription is in casenet-1391CC044966-docket."
+ },
+ "legal-notice-91CC044966-name-change": {
+  "kind": "image",
+  "tier": "primary (published legal notice, paper not identified)",
+  "date": "1991-12-20",
+  "desc": "Published legal notice, Circuit Court of Boone County, case no. 91CC044966: name of Abdulrahman Mohamed changed to Abdulrahman Mohamed El-Sayed by order of Dec 9, 1991. Newspaper not identified in the clipping."
+ }
+}

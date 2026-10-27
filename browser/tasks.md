@@ -31,4 +31,4 @@ Do not enter credentials. Do not click through a terms gate without the user's y
 
 ## Status 2026-10-21
 - Done: FEC disbursements; Wayne Watch Drive files; County Health Rankings (see sources/log.md).
-- Open: LARA (needs human check ticked in the pane), Illinois SOS One Health entities, Wayne Commission minutes (Mar 2023), Senate eFD (needs user yes).
+- Done: LARA AME Higher and Incision Media (Chrome extension). Open: Illinois SOS One Health entities, Commission vote record for Mar 2023 appointment (salary reported as $200,000 by Free Beacon, unverified), Senate eFD (needs user yes).
