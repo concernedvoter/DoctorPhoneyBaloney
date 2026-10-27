@@ -1,0 +1,220 @@
+<title>El-Sayed Money Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: left-to-right flow of money in four columns (givers, conduits, spending vehicles, candidate), with a rated table beneath. */
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --fg:#1d2327; --muted:#5b6670; --line:#d9d6cf;
+  --claim:#b4570e; --claim-bg:#fbeedd;
+  --noclaim:#2d5f86; --noclaim-bg:#e3eef7;
+  --unknown:#6b6f73; --unknown-bg:#e9eaeb;
+  --candidate:#1d2327; --candidate-fg:#f6f5f2;
+  --serif:'Source Serif 4',Georgia,serif; --sans:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14181b; --panel:#1b2024; --fg:#e8e6e1; --muted:#9aa4ac; --line:#2e353b;
+    --claim:#e8964a; --claim-bg:#3a2a18;
+    --noclaim:#6fa6d1; --noclaim-bg:#1c2c3a;
+    --unknown:#9da3a8; --unknown-bg:#272c30;
+    --candidate:#e8e6e1; --candidate-fg:#14181b; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14181b; --panel:#1b2024; --fg:#e8e6e1; --muted:#9aa4ac; --line:#2e353b;
+  --claim:#e8964a; --claim-bg:#3a2a18;
+  --noclaim:#6fa6d1; --noclaim-bg:#1c2c3a;
+  --unknown:#9da3a8; --unknown-bg:#272c30;
+  --candidate:#e8e6e1; --candidate-fg:#14181b; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font-family:var(--serif);font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+h2{font-family:var(--serif);font-size:22px;margin:0 0 10px;text-wrap:balance}
+.lede{color:var(--muted);margin:8px 0 0;max-width:68ch}
+.finding{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:18px 20px;display:grid;gap:10px}
+.finding p{margin:0;max-width:75ch}
+.finding strong{font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.sw{width:14px;height:14px;border-radius:3px;border:2px solid;display:inline-block}
+.sw.claim{border-color:var(--claim);background:var(--claim-bg)}
+.sw.noclaim{border-color:var(--noclaim);background:var(--noclaim-bg)}
+.sw.unknown{border-color:var(--unknown);background:var(--unknown-bg);border-style:dashed}
+.mapbox{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;overflow-x:auto}
+svg{display:block;min-width:900px;width:100%;height:auto}
+svg text{font-family:var(--sans);fill:var(--fg)}
+.colhead{font-size:11px;letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)!important}
+.nm{font-size:12.5px;font-weight:600}
+.sub{font-size:10.5px;fill:var(--muted)!important}
+.amt{font-family:var(--mono);font-size:10.5px;paint-order:stroke;stroke:var(--panel);stroke-width:3px;stroke-linejoin:round}
+.note{font-size:12.5px;color:var(--muted);margin:10px 2px 0;max-width:80ch}
+.tablebox{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.amt2{font-family:var(--mono);white-space:nowrap}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;padding:1px 8px;border-radius:3px;border:1px solid;white-space:nowrap}
+.tag.claim{color:var(--claim);background:var(--claim-bg);border-color:var(--claim)}
+.tag.noclaim{color:var(--noclaim);background:var(--noclaim-bg);border-color:var(--noclaim)}
+.tag.unknown{color:var(--unknown);background:var(--unknown-bg);border-color:var(--unknown)}
+.method{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
+.method p{margin:0}
+a{color:var(--noclaim)}
+@media (prefers-reduced-motion:no-preference){.link{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>El-Sayed Money Map</h1>
+    <p class="lede">How money from Brotherhood-linked organizations and individuals reaches Abdul El-Sayed's Michigan Senate race, as of October 20, 2026. Each box is marked by what critics claim, not by what has been proven.</p>
+  </header>
+
+  <section class="finding" aria-label="Key findings">
+    <p><strong>No money in this map comes from a person documented as a Muslim Brotherhood member, or from Egypt, Turkey, Qatar or any other country usually named in Brotherhood claims.</strong></p>
+    <p>The orange boxes are CAIR and its channel, plus his father-in-law and a friend, Mohamed Soltan, whose father is described as a Brotherhood figure. CAIR has been designated by Texas, Florida and the UAE, and appears in Holy Land Foundation trial exhibits as an associated organization. It has no federal designation and was never charged.</p>
+    <p>That channel put about <strong>$475,000</strong> into Fighting for Michigan PAC, 11 percent of the $4.4 million it had raised through August 31 (Jukaku $300,000 plus Unity and Justice Fund $175,000). The largest single source to that PAC is not in this channel: the Institute for Middle East Understanding gave $400,000, and no Brotherhood claim has been sourced for it.</p>
+    <p><strong>American Priorities' three largest individual donors gave about $2.55 million, and all are reported to be former staff of AppLovin</strong>, a Nasdaq-listed Palo Alto company: Mohammad Waqas ($1.05 million), very likely Fig and Olive's treasurer Mohammad Waqas Javed; Omer Hasan ($1 million); and Tariq Afaq Ahmed ($500,000). Hasan and Ahmed also funded the super PAC that backed New York Mayor Zohran Mamdani. That is a shared donor network, not foreign money: no foreign-address donor appears in the super PACs' itemized records.</p>
+    <p>The $370,000 from Fig and Olive Action came from its nonprofit, which the FEC lists as an organization and which does not disclose its donors. He pledges to refuse super PAC money; American Priorities' $509,526 for him is independent spending he cannot legally direct, and as of July he had not publicly disavowed it.</p>
+  </section>
+
+  <section>
+    <h2>Where the money goes</h2>
+    <div class="legend" aria-label="Legend">
+      <span><i class="sw claim"></i>Critics or governments label it Brotherhood-linked (disputed)</span>
+      <span><i class="sw noclaim"></i>No Brotherhood claim found, or claim not supported</span>
+      <span><i class="sw unknown"></i>Source of money not disclosed</span>
+    </div>
+    <div class="mapbox" style="margin-top:12px">
+      <svg id="map" viewBox="0 0 1000 700" role="img" aria-label="Flow diagram of money from donors through conduits and committees to El-Sayed's campaign. Details are in the table below."></svg>
+    </div>
+    <p class="note">Line widths grow with the amount and are capped, so compare exact figures in the table. Small direct gifts to the campaign run around the PAC box and do not pass through it. FEC data through August 31, 2026 (Fighting for Michigan PAC, Unity and Justice Fund) and September 30 (American Priorities). Amounts into the Unity and Justice Fund are shown as itemized gifts; the fund received more than it passed on in July. New Yorkers for Lower Costs backed Mamdani in New York and does not spend in this race; it is shown to mark the shared donors. Dashed lines are gifts whose funders or donor identity are not confirmed.</p>
+  </section>
+
+  <section>
+    <h2>Every flow, with its rating</h2>
+    <div class="tablebox">
+      <table>
+        <thead><tr><th>From</th><th>To</th><th>Amount</th><th>Date</th><th>Brotherhood claim</th><th>Rating</th></tr></thead>
+        <tbody>
+          <tr><td>Tayeb Jukaku (father-in-law; CAIR-Michigan president 2005 to 2010, ISNA founders committee)</td><td>Fighting for Michigan PAC</td><td class="amt2">$300,000</td><td>Feb 3, Mar 31, Jun 22, 2026</td><td><span class="tag claim">CAIR and ISNA, per Sen. Cruz and critics</span></td><td>Documented (FEC); the label is Disputed</td></tr>
+          <tr><td>Tayeb Jukaku</td><td>Unity and Justice Fund</td><td class="amt2">$100,000</td><td>Jul 20, 2026</td><td><span class="tag claim">As above</span></td><td>Documented (FEC) under his name; the Tracy, Calif. address is unexplained, so the donor's identity is unconfirmed</td></tr>
+          <tr><td>CAIR Action</td><td>Unity and Justice Fund</td><td class="amt2">$185,000</td><td>Mar 25, 2025 ($10,000); Mar 5, 2026 ($75,000); Jul 20, 2026 ($100,000)</td><td><span class="tag claim">CAIR founders in HLF exhibits; state designations</span></td><td>Documented (FEC); association Disputed</td></tr>
+          <tr><td>Two other large donors (Ejaz Naqui, Mohamad Ahmad)</td><td>Unity and Justice Fund</td><td class="amt2">$100,000</td><td>Jul 20, 2026</td><td><span class="tag noclaim">None found</span></td><td>Documented (FEC)</td></tr>
+          <tr><td>Unity and Justice Fund</td><td>Fighting for Michigan PAC</td><td class="amt2">$175,000</td><td>Jul 21, 2026</td><td><span class="tag claim">Same as CAIR Action</span></td><td>Documented (FEC)</td></tr>
+          <tr><td>Unity and Justice Fund</td><td>Independent spending for El-Sayed</td><td class="amt2">$27,881</td><td>2026</td><td><span class="tag claim">Same as CAIR Action</span></td><td>Documented (FEC)</td></tr>
+          <tr><td>Institute for Middle East Understanding, Inc.</td><td>Fighting for Michigan PAC</td><td class="amt2">$400,000</td><td>Jun 29 ($300,000); Jul 27 ($100,000)</td><td><span class="tag noclaim">None sourced</span></td><td>Documented (FEC)</td></tr>
+          <tr><td>Mansoor Ahmed, podiatrist</td><td>Fighting for Michigan PAC; campaign</td><td class="amt2">$252,500 and $7,000</td><td>Mar 18 and Jul 27; Mar 26, 2026</td><td><span class="tag noclaim">None found</span></td><td>Documented (FEC, total rechecked Oct 20); the original filing named a different employer and was amended Jun 23</td></tr>
+          <tr><td>American Committee for Middle East Rights; Mohamed Soltan</td><td>Fighting for Michigan PAC; campaign</td><td class="amt2">$50,000; $1,500; $7,000</td><td>Jun 12 and Aug 31, 2026; Jun 4, 2026; Apr 15, 2025</td><td><span class="tag claim">Soltan's father is a Brotherhood figure; he worked with the group in 2013 and denies membership</span></td><td>Documented (FEC); Brotherhood tie Disputed</td></tr>
+          <tr><td>Emgage PAC</td><td>Campaign and independent spending</td><td class="amt2">$32,900 earmarked; $21,837</td><td>2025 to Oct 14, 2026</td><td><span class="tag noclaim">Claims rest on co-hosting events with ISNA; not supported</span></td><td>Documented (FEC); claim Not supported</td></tr>
+          <tr><td>Individual donors: Mohammad Waqas $1.05M (very likely Javed), Omer Hasan $1M and Tariq Afaq Ahmed $500K, all reported former AppLovin staff; Mokhtarzada, Barghouti and others</td><td>American Priorities</td><td class="amt2">$7.73M raised</td><td>2026</td><td><span class="tag noclaim">Foreign and Brotherhood funding claims not supported</span></td><td>Amounts Documented (FEC); AppLovin and Mamdani ties Reported (Jewish Insider; InfluenceWatch)</td></tr>
+          <tr><td>Fig and Olive Action Inc (nonprofit)</td><td>American Priorities</td><td class="amt2">$370,000 (WSJ: $470,000 in all)</td><td>Jul 13, 2026</td><td><span class="tag unknown">Funders not disclosed</span></td><td>Documented (FEC lists an organization, not a committee); total Disputed; funders unknown</td></tr>
+          <tr><td>Omer Hasan; Tariq Afaq Ahmed</td><td>New Yorkers for Lower Costs (pro-Mamdani super PAC; not in this race)</td><td class="amt2">Not reported</td><td>2025 mayoral race</td><td><span class="tag noclaim">None found</span></td><td>Reported (Jewish Insider)</td></tr>
+          <tr><td>Fig and Olive Action Inc</td><td>New Yorkers for Lower Costs</td><td class="amt2">$100,000</td><td>Not given</td><td><span class="tag unknown">Funders not disclosed</span></td><td>Reported; not checked against New York filings</td></tr>
+          <tr><td>Justice Democrats PAC</td><td>American Priorities</td><td class="amt2">$50,000 in-kind</td><td>Feb 10, 2026</td><td><span class="tag noclaim">None found</span></td><td>Documented (FEC): ad production for the NC-04 race, nine days before Javed's gift to Justice Democrats, so not a pass-through</td></tr>
+          <tr><td>Mohammad Waqas Javed (Showcase Commerce CEO; strong FEC match)</td><td>Campaign; Fig and Olive Action PAC; Justice Democrats</td><td class="amt2">$3,500; $5,000; $50,000</td><td>May 15; Jun 19; Feb 19, 2026</td><td><span class="tag noclaim">Brotherhood claim not supported</span></td><td>Documented (FEC); identity a strong match, not confirmed by him</td></tr>
+          <tr><td>American Priorities</td><td>Independent spending for El-Sayed</td><td class="amt2">$509,526</td><td>Jul 15 to Oct 13, 2026</td><td><span class="tag noclaim">None found</span></td><td>Documented (FEC); $137,500 of it is an October estimate; independent spending he pledges to refuse but cannot direct</td></tr>
+          <tr><td>Fighting for Michigan PAC</td><td>Independent spending for El-Sayed</td><td class="amt2">$1,134,116</td><td>Jun 1 to Jun 26, 2026 (processed reports)</td><td><span class="tag noclaim">Mixed donors</span></td><td>Documented (FEC); more is pending itemization</td></tr>
+          <tr><td>Fig and Olive Action PAC</td><td>Campaign (in-kind food and beverage)</td><td class="amt2">$920</td><td>Apr 26, 2026</td><td><span class="tag unknown">Funders not disclosed</span></td><td>Documented (FEC); the campaign records $920.23 against the PAC's $920.93</td></tr>
+          <tr><td>CAIR-Oklahoma</td><td>El-Sayed personally (speaking fee)</td><td class="amt2">at least $5,000</td><td>Oct 22, 2022 event</td><td><span class="tag claim">CAIR chapter</span></td><td>Reported (Free Beacon); the event the payment covers is unclear</td></tr>
+          <tr><td>CAIR Action or CAIR PAC</td><td>Campaign, direct</td><td class="amt2">None found</td><td></td><td><span class="tag claim">Daily Wire says it contributed directly</span></td><td>Not supported by an itemized FEC name search</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="method">
+    <h2>Method and limits</h2>
+    <p>Sources: Federal Election Commission itemized filings pulled through the FEC's public data service, the Senate financial disclosures, Free Beacon, Inside Political Money, CNN, JTA, Jewish Insider, InfluenceWatch (a project of the conservative Capital Research Center), Michigan Advance and the Florida Phoenix. A Wall Street Journal analysis of October 10 is cited only as relayed by Geller Report and Daily Wire, and is unverified. Brotherhood labels come from critics and governments and are rated as claims.</p>
+    <p>Rechecked against FEC records on October 20: the Fig and Olive and Justice Democrats gifts to American Priorities, the Institute for Middle East Understanding gifts, and Mansoor Ahmed's total.</p>
+    <p>Itemized data omits small donors and cannot show who is behind the Fig and Olive and American Priorities corporate gifts. Federal law bars contributions from foreign nationals; an itemized check of foreign-address donors found $300 net to the campaign and none to the three super PACs. FEC enforcement files stay confidential until a case closes.</p>
+  </section>
+</div>
+
+<script>
+(function(){
+  var NS='http://www.w3.org/2000/svg', svg=document.getElementById('map');
+  var STATUS={claim:'claim',noclaim:'noclaim',unknown:'unknown'};
+  // node definitions: id, column x, y, h, title, subtitle, status
+  var N=[
+    {id:'cair',x:8,y:28,w:200,h:50,t:'CAIR Action',s:'$185,000 to the fund',st:'claim'},
+    {id:'juk',x:8,y:92,w:200,h:50,t:'Dr. Tayeb Jukaku',s:'Father-in-law; $300K confirmed',st:'claim'},
+    {id:'oth',x:8,y:156,w:200,h:44,t:'Two other large donors',s:'$50,000 each',st:'noclaim'},
+    {id:'imeu',x:8,y:238,w:200,h:50,t:'Inst. for Middle East Understanding',s:'$400,000',st:'noclaim'},
+    {id:'ahm',x:8,y:302,w:200,h:50,t:'Mansoor Ahmed',s:'$252,500; amended filing',st:'noclaim'},
+    {id:'acm',x:8,y:366,w:200,h:50,t:'ACMER and Mohamed Soltan',s:'$50,000 and $8,500',st:'claim'},
+    {id:'emg',x:8,y:430,w:200,h:50,t:'Emgage PAC',s:'$32,900 earmarked; $21,837',st:'noclaim'},
+    {id:'apd',x:8,y:494,w:200,h:50,t:'American Priorities donors',s:'Top three ex-AppLovin; $7.73M',st:'noclaim'},
+    {id:'fio',x:8,y:558,w:200,h:50,t:'Fig and Olive Action Inc',s:'Nonprofit; funders unknown',st:'unknown'},
+    {id:'fip',x:8,y:622,w:200,h:48,t:'Fig and Olive Action PAC',s:'$920 in-kind',st:'unknown'},
+
+    {id:'uj',x:360,y:60,w:190,h:96,t:'Unity and Justice Fund',s:'CAIR Action affiliate',st:'claim'},
+    {id:'ap',x:360,y:520,w:190,h:70,t:'American Priorities',s:'Super PAC, formed Jan 2026',st:'noclaim'},
+    {id:'nylc',x:360,y:612,w:214,h:52,t:'New Yorkers for Lower Costs',s:'Backed Mamdani; not in this race',st:'noclaim'},
+
+    {id:'ffm',x:640,y:210,w:170,h:190,t:'Fighting for Michigan',s:'Super PAC; $4.40M raised',st:'noclaim'},
+
+    {id:'els',x:880,y:300,w:112,h:140,t:'El-Sayed',s:'Senate nominee',st:'cand'}
+  ];
+  var L=[
+    ['cair','uj',185000],['juk','uj',100000,undefined,'$100K, unconfirmed',true],['oth','uj',100000],
+    ['uj','ffm',175000],['uj','els',27881,185],
+    ['juk','ffm',300000],['imeu','ffm',400000],['ahm','ffm',252500],['acm','ffm',50000],
+    ['emg','els',54737,445],['acm','els',8500,470],
+    ['apd','ap',7730000],['fio','ap',370000],
+    ['apd','nylc',0,undefined,'Hasan, Ahmed',true],['fio','nylc',100000,undefined,'$100K reported',true],
+    ['ap','els',509526],['ffm','els',1134116],['fip','els',920,undefined,undefined,false,684]
+  ];
+  var byId={};N.forEach(function(n){byId[n.id]=n});
+  var cs=getComputedStyle(document.documentElement);
+  function el(name,attrs,parent){var e=document.createElementNS(NS,name);for(var k in attrs)e.setAttribute(k,attrs[k]);(parent||svg).appendChild(e);return e}
+  function wid(a){return Math.min(30,2.5+a/40000)}
+  function money(a){return a>=1e6?'$'+(a/1e6).toFixed(2).replace(/0$/,'')+'M':a>=10000?'$'+Math.round(a/1000)+'K':a>=1000?'$'+(a/1000).toFixed(1).replace('.0','')+'K':'$'+a}
+  // stack link endpoints along each node edge
+  var outs={},ins={};
+  L.forEach(function(l,i){(outs[l[0]]=outs[l[0]]||[]).push(i);(ins[l[1]]=ins[l[1]]||[]).push(i)});
+  var sy=[],ty=[];
+  Object.keys(outs).forEach(function(id){
+    var arr=outs[id].slice().sort(function(a,b){return byId[L[a][1]].y-byId[L[b][1]].y});
+    var n=byId[id];arr.forEach(function(li,i){sy[li]=n.y+(i+.5)*n.h/arr.length});
+  });
+  Object.keys(ins).forEach(function(id){
+    var arr=ins[id].slice().sort(function(a,b){return byId[L[a][0]].y-byId[L[b][0]].y});
+    var n=byId[id];arr.forEach(function(li,i){ty[li]=n.y+(i+.5)*n.h/arr.length});
+  });
+  // column headings
+  [['Givers',8],['Conduits',360],['Spending vehicles',640],['Candidate',880]].forEach(function(c){
+    var t=el('text',{x:c[1],y:16,class:'colhead'});t.textContent=c[0];
+  });
+  var gl=el('g',{});
+  var gn=el('g',{});
+  L.forEach(function(l,i){
+    var a=byId[l[0]],b=byId[l[1]];
+    var x1=a.x+a.w,x2=b.x,y1=sy[i],y2=ty[i],mx=(x1+x2)/2;
+    var st=a.st==='cand'?'noclaim':a.st;
+    var col=st==='claim'?'--claim':st==='unknown'?'--unknown':'--noclaim';
+    var d=(l[6]!==undefined)?('M'+x1+','+y1+' C'+(x1+50)+','+y1+' '+(x1+50)+','+l[6]+' '+(x1+100)+','+l[6]+' L790,'+l[6]+' C850,'+l[6]+' 850,'+y2+' '+x2+','+y2):(l[3]!==undefined)?('M'+x1+','+y1+' C'+(x1+(820-x1)/2)+','+y1+' '+(x1+(820-x1)/2)+','+l[3]+' 820,'+l[3]+' C850,'+l[3]+' 850,'+y2+' '+x2+','+y2):('M'+x1+','+y1+' C'+mx+','+y1+' '+mx+','+y2+' '+x2+','+y2);
+    var lab=(l[4]!==undefined)?l[4]:money(l[2]);
+    var p=el('path',{d:d,fill:'none',stroke:'var('+col+')','stroke-width':wid(l[2]),opacity:.38,class:'link'},gl);
+    if(st==='unknown'||l[5])p.setAttribute('stroke-dasharray','6 4');
+    var tt=el('title',{},p);tt.textContent=a.t+' to '+b.t+': '+lab;
+    var tx=el('text',{x:x1+8,y:y1-wid(l[2])/2-3,class:'amt'},gl);tx.textContent=lab;
+  });
+  N.forEach(function(n){
+    var g=el('g',{},gn);
+    var cand=n.st==='cand';
+    var stroke=cand?'var(--candidate)':n.st==='claim'?'var(--claim)':n.st==='unknown'?'var(--unknown)':'var(--noclaim)';
+    var fill=cand?'var(--candidate)':n.st==='claim'?'var(--claim-bg)':n.st==='unknown'?'var(--unknown-bg)':'var(--noclaim-bg)';
+    var r=el('rect',{x:n.x,y:n.y,width:n.w,height:n.h,rx:4,fill:fill,stroke:stroke,'stroke-width':2},g);
+    if(n.st==='unknown')r.setAttribute('stroke-dasharray','5 3');
+    var t1=el('text',{x:n.x+10,y:n.y+(n.h>60?n.h/2-2:20),class:'nm'},g);t1.textContent=n.t;
+    if(cand)t1.setAttribute('style','fill:var(--candidate-fg)');
+    var t2=el('text',{x:n.x+10,y:n.y+(n.h>60?n.h/2+14:36),class:'sub'},g);t2.textContent=n.s;
+    if(cand)t2.setAttribute('style','fill:var(--candidate-fg);opacity:.8');
+    if(n.t.length>26&&n.w<=200&&n.id==='imeu'){t1.textContent='Inst. for Middle East';t2.textContent='Understanding; $400,000'}
+  });
+})();
+</script>
