@@ -42,6 +42,47 @@ Source tiers, in order of weight: (1) primary records and the subject's own reco
 | tools/ | Scripts (below) |
 | docs/links.md | Template for keeping your own live-document links (the filled copy, docs/links.local.md, stays local) |
 
+## Case study quick references (Michigan Senate, El-Sayed)
+These are summaries. Each row points to the file that holds the sources and the full rating. The same tests have not yet been run for the other candidate; see the Rogers dossier and the open items in records/open-leads.md.
+
+### Link map: El-Sayed and the Muslim Brotherhood
+A step is a contact or relationship, not membership or agreement. Evidence that he or his family are members: none found. Full data: deliverables/graphics/degrees.md. Detail: deliverables/dossier-el-sayed/15-link-map-by-degree.md and 12-muslim-brotherhood-claims-and-evidence.md.
+
+| Path | Chain (El-Sayed to Brotherhood) | Link ratings |
+|---|---|---|
+| 1 | El-Sayed, signed a 2012 letter backing, Mohamed Morsi (Brotherhood leader, Egypt), Muslim Brotherhood | Documented (letter) |
+| 2 | El-Sayed, called a friend in 2021, Salah Soltan (Brotherhood figure) | Documented (post) |
+| 3 | El-Sayed, his half-sister, who says (2012 posts) their mother was active in the Muslim Brotherhood | Reported |
+| 4 | Donor path: super PAC he cannot direct, nonprofit that gave $50,000, tied to Salah Soltan | Per-link ratings in the dossier money map |
+| 5 | El-Sayed, father-in-law (CAIR-Michigan president 2005 to 2010), CAIR-Michigan, National CAIR, 1994 committee agenda, Palestine Committee, Muslim Brotherhood | Father-in-law and presidency Reported; chapter-of Documented; National CAIR to Palestine Committee Disputed; Palestine Committee to Brotherhood Documented |
+
+Weakest link (path 5): National CAIR to the Palestine Committee. CAIR was never charged and denies any tie to Hamas. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.
+
+### Career timeline
+Ratings follow facts/claims.md. Section numbers refer to deliverables/dossier-el-sayed/.
+
+| Date | Event | Rating | Section |
+|---|---|---|---|
+| Oct 31, 1984 | Reported birth date; birthplace unverified (record sealed) | Reported | 02 |
+| Dec 9, 1991 | Boone County, Missouri court order changes his name to Abdulrahman Mohamed El-Sayed (case 1391CC044966) | Documented | 02 |
+| 2006 to 2007 | Muslim Students' Association vice president, University of Michigan | Reported | 03 |
+| 2007 | Bachelor's degree; gives student commencement address | Documented (university release) | 03 |
+| 2009 to 2014 | Oxford DPhil as a Rhodes Scholar; Columbia MD, class of 2014; no medical license held | Documented for the MD and no license; Reported for the rest for the MD and no license; Reported for the rest | 04, 18 |
+| 2012 | Group letter backing President Morsi attributed to him | Documented (NYT, claim E01) | 12 |
+| Aug 25, 2015 | Begins as Detroit executive director of public health | Reported | 06 |
+| 2016 | Tells a Detroit audience he holds dual U.S. and Egyptian citizenship; his campaign now calls it an error | Reported | 06, 22 |
+| 2017 | Leaves the department; enters governor's race; calls himself "an immigrant from North Africa" at the state convention | Reported | 07, 22 |
+| 2018 | Wins 30 percent of the Democratic primary for governor | Reported | 07 |
+| Mar 1, 2023 | Becomes Wayne County health and human services director | Documented | 08 |
+| Apr 3, 2025 | Leaves the county post; later paid as a consultant through AME Higher LLC ($72,000 on his Senate report; invoices total $36,000, records conflict) | Disputed | 08, 19 |
+| Apr 17, 2025 | Launches U.S. Senate campaign | Reported | 09 |
+| Sept 2025 | Fighting for Michigan super PAC formed to back him | Reported | 09, 10 |
+| Aug 4, 2026 | Wins the Democratic primary over Rep. Haley Stevens, 48.5 to 47.5 percent | Reported | 09 |
+| Oct 2026 | General election debate and Meet the Press interview on Brotherhood claims; Bridge fact check (Sept 3) finds no evidence of personal Brotherhood ties | Reported | 09, 12 |
+| Nov 3, 2026 | General election against Mike Rogers (R) | Documented | 09 |
+
+Related: money flows in dossier section 10 and records/fec-screen/FINDINGS.md; statements checked against the record in section 22; family and birth timeline (working notes, relatives are context only) in records/timeline-family.md.
+
 ## Tools
 | Tool | What it does | Needs |
 |---|---|---|
