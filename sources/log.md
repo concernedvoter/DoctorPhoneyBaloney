@@ -153,3 +153,7 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 - Read Free Beacon (Jon Levine, Oct 28, 2026). Checked: LRD board page (father listed as Dr. Mohammed Elsayed, EMU engineering professor and visiting imam; Gindy not listed); OFAC settlement of Mar 25, 2015 (read; $780,000); Treasury Oct 13, 2004 IARA designation (does not mention LRD); US v. Al-Hanooti judgment (does not mention LRD).
 - Not read: the 1992 directory exhibit, LRD Form 990s, FEC records for the $1,000 gifts, the 2012 letter signatures, newspaper accounts of raids.
 - Added section 14 paragraph, section 19 open item, claims L01 to L05. Relatives are context only.
+
+## 2026-10-29 LRD and IARA public-records check
+- Research memo (secondary and primary sources). Findings: the article's LRD to IARA tie is a co-mention (2006 warrants sought records related to several organizations); no shared officers, funds, staff, address or transfers found; LRD 990s list father as unpaid director FY2020 to 2024; Gindy director through FY2019 only; CEO charge, 2014 dismissal and bank timing claims unsupported or disputed; Al-Hanooti details from CNN 2008.
+- Not read: the warrant, DOJ-LRD agreement, HLF directory exhibit, W.D. Mo. Doc 518, Free Press 2006 and 2016 articles, NY Post 2007. Section 14 paragraph rewritten; claims L01, L04, L05 revised, L06 and L07 added; section 19 item updated.
