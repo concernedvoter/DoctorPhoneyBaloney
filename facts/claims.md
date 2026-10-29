@@ -121,4 +121,4 @@ Where: `src:<id>` = sources/text/<id>.md (see sources/INDEX.md). `del:` = file u
 | W03 | MSA outreach co-chair 2004 to 2005, attended board meetings incl. Tariq Ramadan call-to-action planning | Reported (IPT says it recovered minutes; not seen) | src:IPT Part 3, Oct 28, 2026 |
 | W04 | MSA board discussed KindHearts dinner; he appears to have attended Dec 7, 2004 and was present Jan 18, 2005; dinner outcome unknown | Reported (IPT, with its own uncertainty) | src:IPT Part 3 |
 | W05 | MSA chapter and he were in the Brotherhood's orbit (IPT framing) | Disputed (opinion; guilt by association; IPT concedes no Brotherhood endorsement in his essay) | src:IPT Part 3 |
-
+| L08 | NY Post (Oct 29, 2026) repeats LRD claims from Free Beacon; says case dropped 2014, CEO indicted 2007, mother worked at IARA 'briefly'; LRD cash to Hamas Jordanian operation per its own 2007 report | Reported (derivative); 2014 Disputed; 2007 indictment Not supported; 'briefly' conflicts with record (1999 to 2004) | src:NY Post Oct 29, 2026 (print copy local only) |

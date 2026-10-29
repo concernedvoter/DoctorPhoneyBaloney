@@ -14,5 +14,6 @@ These items were read for the research and are cited by ID in sources/INDEX.md a
 | u-s-designates-three-muslim-brotherhood-chapters-as-terroris | web page | publisher copyright |
 | u-s-v-hlf-criminal-action-no-3-04-cr-240-g-n-d-tex-judgment- | web page | aggregator copyright (use the court's own record) |
 | us-v-holy-land-foundation-for-relief-and-development-et-al | web page | publisher copyright |
+| nypost-2026-10-29-el-sayed-father-lrd | news article (PDF print) | newspaper copyright; print file carries the reader's name in its metadata |
 
 Also kept local only: books, video transcripts and audio, working scripts, FEC donor-level CSV exports (re-create with tools/fec_screen.py), and filled-in live document links.

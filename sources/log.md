@@ -162,3 +162,6 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 - Read IPT document page and scan (Al-Risalah Vol 6 Issue 5, March 2006, "Regional Unity", byline Abdulrahman El-sayed; scan hosted by IPT, original not seen) and IPT Part 3 (Steven Emerson, Oct 28, 2026; advocacy source, uses MSA minutes it says it recovered).
 - Verified in the Bentley Library archive of The Michigan Daily: Feb 22, 2006 Viewpoint "In our prayers" by Abdulrahman Elsayed; quote and context checked (about the kidnappers' demand to free Iraqi women prisoners; he condemns the kidnapping).
 - Not read: the minutes, parts 1, 2, 4 to 6 of the IPT series, KindHearts treasury/settlement documents. Added Stage 2 subsection, claims W01 to W05, section 19 open item.
+
+## 2026-10-29 NY Post article on LRD (print to PDF)
+- Read the PDF print of the New York Post article (Ryan King, Oct 29, 2026) saved in sources/text. It attributes the board-seat finding to the Free Beacon and adds no new documents. Differences from the record noted in section 14 and claim L08. The print file is newspaper copyright and its metadata carries the reader's name, so it is kept local only (gitignored; listed in sources/EXCLUDED.md).
