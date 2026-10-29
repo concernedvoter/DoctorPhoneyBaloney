@@ -178,3 +178,6 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 
 ## 2026-10-29 Mother's dates
 - Extended the mother's timeline in chapter 02 and records/timeline-family.md to cover about 1960 through 2026, with explicit gap rows. Birth year only, inferred from the 2004 Tribune age. Name, full birth date and employer withheld.
+
+## 2026-10-29 Outside Michigan table
+- Added a table to chapter 02 of events placing him and relatives outside Michigan, from material already in the dossier plus the 2013 CV and UM 2008 release. SSN item excluded as a private identifier. Not exhaustive for speaking appearances.

@@ -46,6 +46,32 @@ He is the son of Egyptian immigrants. The University of Michigan described him i
 | 2018 onward | A public staff page lists a physician with her reported name in Missouri mental health care. The employer is left out; the link is by name | Reported |
 | 2026-10-21 | New York Times reports she is a psychiatric nurse practitioner in Missouri and spoke to the Times about the agency job | Reported |
 
+**Outside Michigan (added October 29, 2026).** Events in this record that place him or his family members outside Michigan. Relatives are context only. None of these rows states where he was born, and the Constitution sets no birthplace or childhood-residence requirement for senators. His documented Michigan ties (University of Michigan 2003 to 2009, Detroit 2015 to 2017, Wayne County 2023 to 2025) are in the other stages.
+
+| When | Who | Where | What the record shows | Rating |
+| --- | --- | --- | --- | --- |
+| to 1978 | Father | Egypt | Left Egypt in 1978, per his memoir | Reported |
+| about 1960 to 1983 | Mother | Egypt | Birth in Egypt and a medical degree from Alexandria University in 1983, by name match and her 1990 petition as transcribed | Reported |
+| undated, childhood | Him | Alexandria, Egypt | He has spoken of childhood visits to his father's family | Reported |
+| 1988 | Both parents | Columbia, Missouri | Boone County divorce-modification docket 1388DR026716, parents' surname Mohamed | Reported (CaseNet) |
+| 1990-03-22 | Both parents | Kansas City and Columbia, Missouri | Admitted to citizenship in Kansas City; both lived in Columbia (by name) | Reported |
+| about 1991 | Father | Columbia, Missouri | A Mohamed El-Sayed, University of Missouri assistant professor of engineering | Reported |
+| 1991-11-14 to 1992-01-03 | Him, father | Boone County, Missouri | Name-change case 1391CC044966 filed and decided there; notice published in Columbia. The docket does not state where he lived | Documented (case); residence not stated |
+| about 1991 | Him | Columbia, Missouri | Photographs said to show him at a Columbia elementary school; not reviewed here | Reported |
+| to at least 1995 | Him, father | Florida | Michigan Enjoyer, citing a 2017 Guardian profile; the profile has not been read here | Reported |
+| childhood | Him | Missouri, Florida, Michigan | New York Times, Oct. 21, 2026: raised in all three by his father and a stepmother | Reported |
+| 1999 to 2004 | Mother | Columbia, Missouri | Worked at the Islamic American Relief Agency's U.S. office there | Documented (Tribune 2004; Times 2026) |
+| 2008 | Him | Peru | Led a medical mission, per the University of Michigan | Documented |
+| Oct. 2009 to Oct. 2011 | Him | Oxford, England | DPhil at Oxford (Oriel College) per his 2013 CV; Oxford research associate from June 2012 | Documented as the content of the CV |
+| 2008 to 2014 | Him | New York City | Columbia dual-degree program; project coordinator in epidemiology Oct. 2011 to May 2014 and assistant professor from May 2014 (2013 CV). The 2012 Morsi letter lists him as of New York | Documented as the content of the CV |
+| 2010 | Mother | Missouri | Named a probable witness in a Western District of Missouri case | Documented (that she is listed) |
+| Oct. 28, 2017 | Him | Arlington, Virginia | Billed keynote speaker at CAIR's national banquet | Documented (CAIR notice) |
+| undated | Him | Massachusetts; Washington, D.C. | Visiting scholar at Harvard's FXB Center; scholar in residence at American University | Reported (profiles; dates not found) |
+| 2026 | Mother | Missouri | Described by the Times as a psychiatric nurse practitioner in Missouri | Reported |
+| current | Half-sister | Illinois | University of Chicago professor | Reported |
+
+Reading: records and reporting place both parents in Missouri from the late 1980s through the 2000s and place part of his childhood in Missouri and Florida. Adult study and work took him to England, New York and elsewhere. This is context for the "as Michigan as you get" phrase, not a finding about birthplace.
+
 Nothing here places either parent, or him, in Michigan or Missouri on October 31, 1984, and nothing states his birthplace.
 
 Her name, birth date, addresses and current employer are left out on purpose. Rating: Documented, except the father's current academic post (Reported).

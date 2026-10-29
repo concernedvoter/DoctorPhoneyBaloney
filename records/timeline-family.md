@@ -44,3 +44,5 @@ Reading: the family used the surname Mohamed in 1988 and adopted El-Sayed around
 Update 2026-10-23 (published notice, src:legal-notice-91CC044966-name-change): 1991-12-09 name change was published Dec 20 and 27, 1991 and Jan 3, 1992. The petition was brought 'by Next Friend Mohamed El-Sayed', which indicates a minor petitioner. Name spelled Abdulrahman (the CaseNet judgment text says Abdlrahman).
 
 Coverage gaps for the mother, 1960 to 2026 (no public record found): 1960 to 1982 other than the 1983 degree; 1985 to 1987; 1992 to 1998; 2005 to 2009; 2011 to 2017. Do not fill from inference.
+
+Outside-Michigan events (2026-10-29): see the "Outside Michigan" table in dossier chapter 02. Missouri 1988 to 2010 (parents), Florida to at least 1995 (him, Reported), Egypt (parents to 1983, his childhood visits), Oxford 2009 to 2011, New York 2008 to 2014, Peru 2008, Arlington VA 2017.
