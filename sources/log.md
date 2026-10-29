@@ -148,3 +148,8 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 - Content: taxes 'certainly' rise, amount unknown, 'neither does Abdul'; the 2020 book is a Canadian-style single payer; union members would trade away their plans but could bargain wages; 'what he does when he's in the seat' matters more than what he says. Staffer is an opinion about the candidate, not a statement by him.
 - Cross-check: Bridge Michigan Sept 25, 2026 fact check (tax claim 'likely correct'; he backed off a 2020 podcast line about ending private insurance; campaign did not say how it would pay). Added claim P20.
 - Note: a staffer remark is context only, as with relatives and associates. Rogers parity: no equivalent staff-recording check run.
+
+## 2026-10-29 Free Beacon: father on LRD board
+- Read Free Beacon (Jon Levine, Oct 28, 2026). Checked: LRD board page (father listed as Dr. Mohammed Elsayed, EMU engineering professor and visiting imam; Gindy not listed); OFAC settlement of Mar 25, 2015 (read; $780,000); Treasury Oct 13, 2004 IARA designation (does not mention LRD); US v. Al-Hanooti judgment (does not mention LRD).
+- Not read: the 1992 directory exhibit, LRD Form 990s, FEC records for the $1,000 gifts, the 2012 letter signatures, newspaper accounts of raids.
+- Added section 14 paragraph, section 19 open item, claims L01 to L05. Relatives are context only.
