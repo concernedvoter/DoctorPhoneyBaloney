@@ -168,3 +168,4 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 
 ## 2026-10-29 IPT Part 3 second pass
 - Re-read IPT Part 3 for dated items not yet recorded; page links no primary documents and has no corrections. Added a dated table and chapter-structure note to Stage 2 and claim W06. Feb 14, 2006 Carroll vigil planning noted as context for his Michigan Daily column.
+- 2026-10-29: link map updated (README paths 6 and 7, chapter 15 rows for MSA, LRD, student writings, MEMRI clip, Colombia retreat; degrees.md). Live dossier link map table matches.

@@ -55,8 +55,12 @@ A step is a contact or relationship, not membership or agreement. Evidence that 
 | 3 | El-Sayed, his half-sister, who says (2012 posts) their mother was active in the Muslim Brotherhood | Reported |
 | 4 | Donor path: super PAC he cannot direct, nonprofit that gave $50,000, tied to Salah Soltan | Per-link ratings in the dossier money map |
 | 5 | El-Sayed, father-in-law (CAIR-Michigan president 2005 to 2010), CAIR-Michigan, National CAIR, 1994 committee agenda, Palestine Committee, Muslim Brotherhood | Father-in-law and presidency Reported; chapter-of Documented; National CAIR to Palestine Committee Disputed; Palestine Committee to Brotherhood Documented |
+| 6 | El-Sayed, Michigan MSA officer 2006 to 2007, national MSA (helped found ISNA), Brotherhood "orbit" per IPT | Office Documented; "orbit" Disputed; chapter minutes not seen |
+| 7 | El-Sayed, father (unpaid director of Life for Relief and Development, Form 990s 2020 to 2024), LRD, two leaders listed in a 1992 Brotherhood directory, Brotherhood | Directorship Documented; relative, context only; directory entries Reported, exhibit not read |
 
-Weakest link (path 5): National CAIR to the Palestine Committee. CAIR was never charged and denies any tie to Hamas. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.
+Weakest link (path 5): National CAIR to the Palestine Committee. Weakest link (paths 6 and 7): the step from the chapter or the charity to the Brotherhood, which rests on characterization and an exhibit not yet read. CAIR was never charged and denies any tie to Hamas. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.
+
+Checked, no path: Colombia retreat photos (Not supported), the 2019 MEMRI clip (no Brotherhood content identified; transcript not reviewed) and LRD to IARA (co-mention only).
 
 ### Career timeline
 Ratings follow facts/claims.md. Section numbers refer to deliverables/dossier-el-sayed/.

@@ -1,13 +1,13 @@
 ---
 title: "Degrees of separation: El-Sayed and the Muslim Brotherhood"
 type: graphic-data
-as_of: 2026-10-22
+as_of: 2026-10-29
 source_file: graphics/src/degrees/Main.dc.html
-image: graphics/degrees-of-separation.png (may predate the final dark redesign; the HTML source is authoritative)
+image: graphics/degrees-of-separation.png (predates paths 6 and 7 and may predate the final dark redesign; the HTML source is authoritative)
 ---
 # Degrees of separation: El-Sayed and the Muslim Brotherhood
 
-Five paths traced link by link from the public record. A step is a contact or relationship, not membership or agreement. Line style encodes rating: solid Documented, dashed Reported, dotted Disputed. Shortest path: 1 step (his own 2012 letter and 2021 post). Evidence that he or his family are members: none found.
+Seven paths traced link by link from the public record. A step is a contact or relationship, not membership or agreement. Line style encodes rating: solid Documented, dashed Reported, dotted Disputed. Shortest path: 1 step (his own 2012 letter and 2021 post). Evidence that he or his family are members: none found.
 
 | Path | Chain (El-Sayed to Brotherhood) | Link ratings |
 |---|---|---|
@@ -16,8 +16,12 @@ Five paths traced link by link from the public record. A step is a contact or re
 | 3 | El-Sayed, his half-sister, who says (2012 posts) their mother was active in the Muslim Brotherhood | Reported |
 | 4 | Donor path: Super PAC he cannot direct, Nonprofit that gave $50,000, tied to Salah Soltan | see source HTML for per-link styles |
 | 5 | El-Sayed, son-in-law of Dr. Tayeb Jukaku (father-in-law; CAIR-Michigan president 2005 to 2010), CAIR-Michigan, chapter of National CAIR, listed on a 1994 agenda as "Coordination", Palestine Committee (1990s U.S. network), formed by the Muslim Brotherhood | father-in-law link Reported; CAIR-Michigan presidency Reported; chapter-of Documented; National CAIR to Palestine Committee Disputed; Palestine Committee to Brotherhood Documented |
+| 6 | El-Sayed, Michigan MSA officer 2006 to 2007, national MSA (helped found ISNA), Brotherhood "orbit" per IPT | office Documented; "orbit" Disputed; chapter minutes not seen |
+| 7 | El-Sayed, father (unpaid director of Life for Relief and Development, Form 990s 2020 to 2024), LRD, two leaders listed in a 1992 Brotherhood directory, Brotherhood | directorship Documented; relative, context only; directory entries Reported, exhibit not read |
 
 **Weakest link.** National CAIR to the Palestine Committee. A 1994 committee agenda lists CAIR on a line marked "Coordination." In 2009 Judge Solis found a prima facie case of CAIR's involvement and sealed the co-conspirator list. CAIR was never charged and denies any tie to Hamas. Its co-founder Omar Ahmad is documented as a committee member.
+
+**Weakest link (paths 6 and 7).** The step from the chapter or the charity to the Brotherhood rests on characterization and an exhibit not yet read.
 
 **What the record does not show.** No evidence that El-Sayed or his family belongs to the Brotherhood. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.
 
