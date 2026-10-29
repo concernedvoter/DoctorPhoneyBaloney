@@ -172,3 +172,6 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 
 ## 2026-10-29 Gateway Pundit fact check
 - Checked thegatewaypundit.com piece of Oct 28, 2026 (Mike LaChance) against NBC, AP, NPR, Daily News Egypt, Amnesty, HRW, FEC and Middle East Eye. Added table to chapter 12 and claims G01 to G08. Corrected the link map: the 2021 post named Mohamed Soltan, whose father is Salah Soltan. Added mother's timeline rows to chapter 02 (name, birth date and employer withheld). The research report listed Wikipedia among its sources; it was not used.
+
+## 2026-10-29 Connection graph
+- Added a network graph of all traced links (19 nodes, 25 links) with shared nodes merged: deliverables/graphics/connection-graph.png, graph.md, src/graph. Same ratings as the degrees chart; no new claims.

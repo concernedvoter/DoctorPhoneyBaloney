@@ -46,7 +46,7 @@ Source tiers, in order of weight: (1) primary records and the subject's own reco
 These are summaries. Each row points to the file that holds the sources and the full rating. The same tests have not yet been run for the other candidate; see the Rogers dossier and the open items in records/open-leads.md.
 
 ### Link map: El-Sayed and the Muslim Brotherhood
-A step is a contact or relationship, not membership or agreement. Evidence that he or his family are members: none found. Full data: deliverables/graphics/degrees.md. Detail: deliverables/dossier-el-sayed/15-link-map-by-degree.md and 12-muslim-brotherhood-claims-and-evidence.md.
+A step is a contact or relationship, not membership or agreement. Evidence that he or his family are members: none found. Full data: deliverables/graphics/degrees.md. Network view of the same links: deliverables/graphics/connection-graph.png, data in deliverables/graphics/graph.md. Detail: deliverables/dossier-el-sayed/15-link-map-by-degree.md and 12-muslim-brotherhood-claims-and-evidence.md.
 
 | Path | Chain (El-Sayed to Brotherhood) | Link ratings |
 |---|---|---|
