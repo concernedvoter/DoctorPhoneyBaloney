@@ -5,6 +5,7 @@ as_of: 2026-10-23
 ---
 | Date | Fact | Rating | Source |
 |---|---|---|---|
+| about 1960 | Mother (if the name match holds): birth year implied by age 44 in Tribune 2004-10-14; petition says born in Egypt, medical degree at 23 in 1983. Year only; date withheld | Reported (inference) | Tribune; petition transcript |
 | 1978 | Father left Egypt (candidate's memoir, as reported) | Reported | dossier 02 |
 | 1983 | Dr. Fatten Elkomy, Psychiatric/Mental Health NP, "graduated from Alexandria University, School of Medicine, Alexandria, Egypt in 1983" (Islamic School of Columbia page). Page does not name the candidate or any family | Documented (that the page says it); link to candidate unconfirmed | https://www.theiscm.net/councellor.html |
 | 1984-10-31 | Candidate's reported birth date | Reported | Bridge Michigan |
@@ -41,3 +42,5 @@ Update 2026-10-23 (CaseNet 1391CC044966, src:casenet-1391CC044966-docket):
 Reading: the family used the surname Mohamed in 1988 and adopted El-Sayed around 1990 to 1991. Inference only (not on the docket): the 1988 stipulated change of custody and the end of the movant's support are consistent with custody moving to the father, who is then the co-petitioner in 1991 for the boy's name. The mother's naming (Elkomy) and the father's (El-Sayed) both came in at naturalization in 1990 per the stubs. Do not state the custody reading as fact.
 
 Update 2026-10-23 (published notice, src:legal-notice-91CC044966-name-change): 1991-12-09 name change was published Dec 20 and 27, 1991 and Jan 3, 1992. The petition was brought 'by Next Friend Mohamed El-Sayed', which indicates a minor petitioner. Name spelled Abdulrahman (the CaseNet judgment text says Abdlrahman).
+
+Coverage gaps for the mother, 1960 to 2026 (no public record found): 1960 to 1982 other than the 1983 degree; 1985 to 1987; 1992 to 1998; 2005 to 2009; 2011 to 2017. Do not fill from inference.

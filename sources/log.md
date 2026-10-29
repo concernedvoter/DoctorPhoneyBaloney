@@ -175,3 +175,6 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 
 ## 2026-10-29 Connection graph
 - Added a network graph of all traced links (19 nodes, 25 links) with shared nodes merged: deliverables/graphics/connection-graph.png, graph.md, src/graph. Same ratings as the degrees chart; no new claims.
+
+## 2026-10-29 Mother's dates
+- Extended the mother's timeline in chapter 02 and records/timeline-family.md to cover about 1960 through 2026, with explicit gap rows. Birth year only, inferred from the 2004 Tribune age. Name, full birth date and employer withheld.

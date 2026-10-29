@@ -23,5 +23,5 @@ Corrections already applied. Do not reintroduce.
 - Birthplace: sources conflict (see claims E05). State "not independently verified".
 - Name history: say 'court records show he was named Abdulrahman Mohamed until December 9, 1991'. Do not say 'born as Abdulrahman Mohamed' (birth record not seen) or give a reason for the change (not in the filings).
 - Next friend means a minor petitioner; the relationship to Mohamed El-Sayed is not stated in the filings. Do not call him the father without a source (the dossier already reports the father as an engineering professor).
-- Parents are context only: do not publish the mother's name, birth date, addresses or registration numbers; do not name or speculate about who requested court records.
+- Parents are context only: do not publish the mother's name, full birth date, addresses or registration numbers (birth year only, as an inference, per the user's Oct 29, 2026 instruction); do not name or speculate about who requested court records.
 - CaseNet is not an official court record; cite it with that caveat and get the clerk's certified copy for anything critical.
