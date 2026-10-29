@@ -157,3 +157,8 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 ## 2026-10-29 LRD and IARA public-records check
 - Research memo (secondary and primary sources). Findings: the article's LRD to IARA tie is a co-mention (2006 warrants sought records related to several organizations); no shared officers, funds, staff, address or transfers found; LRD 990s list father as unpaid director FY2020 to 2024; Gindy director through FY2019 only; CEO charge, 2014 dismissal and bank timing claims unsupported or disputed; Al-Hanooti details from CNN 2008.
 - Not read: the warrant, DOJ-LRD agreement, HLF directory exhibit, W.D. Mo. Doc 518, Free Press 2006 and 2016 articles, NY Post 2007. Section 14 paragraph rewritten; claims L01, L04, L05 revised, L06 and L07 added; section 19 item updated.
+
+## 2026-10-29 IPT Part 3 and two student writings
+- Read IPT document page and scan (Al-Risalah Vol 6 Issue 5, March 2006, "Regional Unity", byline Abdulrahman El-sayed; scan hosted by IPT, original not seen) and IPT Part 3 (Steven Emerson, Oct 28, 2026; advocacy source, uses MSA minutes it says it recovered).
+- Verified in the Bentley Library archive of The Michigan Daily: Feb 22, 2006 Viewpoint "In our prayers" by Abdulrahman Elsayed; quote and context checked (about the kidnappers' demand to free Iraqi women prisoners; he condemns the kidnapping).
+- Not read: the minutes, parts 1, 2, 4 to 6 of the IPT series, KindHearts treasury/settlement documents. Added Stage 2 subsection, claims W01 to W05, section 19 open item.

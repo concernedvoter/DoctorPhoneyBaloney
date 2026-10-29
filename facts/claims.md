@@ -116,3 +116,9 @@ Where: `src:<id>` = sources/text/<id>.md (see sources/INDEX.md). `del:` = file u
 | L05 | Sherif Gindy a current LRD board member; statements attributed to him | Disputed (appears as director on forms through FY2019 only); statements Not supported | src:LRD 990s, Free Beacon |
 | L06 | LRD CEO charged by a grand jury in 2007; case dropped 2014 | Not supported (charge); Disputed (2014; OFAC settlement March 2015) | src:OFAC 2015 |
 | L07 | Al-Hanooti LRD PR director 1999 to 2006; indictment says Iraqi intelligence paid $34,000 via intermediary to LRD for 2002 trip; plea and 12 months and a day (2011) | Reported (CNN); judgment does not name LRD | src:CNN 2008, E.D. Mich. 08-20083 |
+| W01 | Michigan Daily Viewpoint column "In our prayers," Feb 22, 2006, by Abdulrahman Elsayed: condemns Jill Carroll kidnapping, blames Iraq war, "While their means remain unjustified, their ends I do not question" (about the demand to release Iraqi women prisoners) | Documented (text); Reported (author is the candidate) | src:Michigan Daily via Bentley Library archive |
+| W02 | Al-Risalah Vol 6 Issue 5 (Mar 2006) "Regional Unity" by Abdulrahman El-sayed: Michigan Muslim unity, MSA coordination, da'wa; no Brotherhood, Israel or West content | Reported (IPT-hosted scan; date and issue per IPT; original not seen) | src:investigativeproject.org/documents/1191 |
+| W03 | MSA outreach co-chair 2004 to 2005, attended board meetings incl. Tariq Ramadan call-to-action planning | Reported (IPT says it recovered minutes; not seen) | src:IPT Part 3, Oct 28, 2026 |
+| W04 | MSA board discussed KindHearts dinner; he appears to have attended Dec 7, 2004 and was present Jan 18, 2005; dinner outcome unknown | Reported (IPT, with its own uncertainty) | src:IPT Part 3 |
+| W05 | MSA chapter and he were in the Brotherhood's orbit (IPT framing) | Disputed (opinion; guilt by association; IPT concedes no Brotherhood endorsement in his essay) | src:IPT Part 3 |
+

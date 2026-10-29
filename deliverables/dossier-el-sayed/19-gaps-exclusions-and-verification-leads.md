@@ -54,6 +54,8 @@ These questions could change the story. A records check on October 19, 2026 reso
 
 - **Life for Relief and Development: open checks.** Pull the 2006 search-warrant dockets and returns (E.D. Mich.); read LRD's Form 990 Part VII and Schedules F and I for fiscal 2001 to 2024; check Michigan corporate records and its predecessor name; read the 1992 directory exhibit entries for Saqr and Abdul-Rahim; check FEC records for the three $1,000 gifts; confirm whether Saqr signed the 2012 Morsi letter; obtain LRD's and the father's responses. Rated in Organizations in context.
 
+- **Student writings and the IPT series.** Obtain the original Al-Risalah issue and the MSA board minutes the IPT says it recovered (provenance unverified); read the other five parts of the IPT series; ask the campaign whether he stands by the 2006 Michigan Daily column and how he reads its "ends" sentence. Rated in Stage 2.
+
 **Publication standards**
 
 - Attribute every finding drawn from partisan outlets, on either side, and confirm figures against FEC and Senate filings.
