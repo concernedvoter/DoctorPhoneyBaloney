@@ -1,110 +1,121 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Degrees of separation</title>
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="en"><head><meta charset="utf-8"><title>Degrees of separation</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
 <style>
-body{margin:0}
-</style>
-</helmet>
-<div style="position:relative;width:1080px;height:1620px;box-sizing:border-box;background:#11151B;background-image:radial-gradient(circle at 85% 8%,rgba(95,211,184,0.10),transparent 40%),radial-gradient(circle at 80% 75%,rgba(255,92,92,0.10),transparent 45%);color:#F2EDE3;font-family:'Inter',system-ui,sans-serif;overflow:hidden">
-
-<div style="position:absolute;left:40px;top:44px;width:660px">
-<div style="font-size:15px;font-weight:700;letter-spacing:2.5px;color:#5FD3B8">MICHIGAN U.S. SENATE RACE, AS OF OCT. 22, 2026</div>
+body{margin:0;background:#11151B}
+.c{position:relative;width:1440px;height:1720px;box-sizing:border-box;background:#11151B;background-image:radial-gradient(circle at 85% 8%,rgba(95,211,184,.10),transparent 40%),radial-gradient(circle at 80% 75%,rgba(255,92,92,.10),transparent 45%);color:#F2EDE3;font-family:'Inter',system-ui,sans-serif;overflow:hidden}
+.rule{position:absolute;left:40px;right:40px;height:1px;background:#232B35}
+.step{position:absolute;left:40px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1}
+.step span{font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3}
+.line{position:absolute;width:0}
+.pill{position:absolute;transform:translate(-50%,-50%);max-width:150px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid;font-size:12px;font-weight:600;line-height:1.2;text-align:center}
+.node{position:absolute;width:156px;height:64px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px}
+.node.red{background:#3A1517;border-color:#FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,.12),0 0 28px rgba(255,92,92,.35)}
+.nm{font-size:14.5px;font-weight:700;line-height:1.15}
+.sub{font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px;line-height:1.2}
+.red .sub{color:#FFB3AD}
+.panel{flex:1;padding:18px 20px;border-radius:14px;background:#1B222B;border:1.5px solid #3B4654}
+.panel.w{background:#2A1416;border:2px solid #FF5C5C}
+.ph{font-size:14px;font-weight:800;letter-spacing:2px}
+.pt{font-size:15.5px;line-height:1.42;margin-top:8px}
+</style></head><body>
+<div class="c">
+<div style="position:absolute;left:40px;top:44px;width:900px">
+<div style="font-size:15px;font-weight:700;letter-spacing:2.5px;color:#5FD3B8">MICHIGAN U.S. SENATE RACE, AS OF OCT. 29, 2026</div>
 <h1 style="margin:12px 0 0 0;font-family:'Source Serif 4',Georgia,serif;font-size:54px;line-height:1.04;font-weight:700">How many steps from <span style="white-space:nowrap">El-Sayed</span> to the Muslim Brotherhood?</h1>
-<div style="margin-top:14px;font-size:19px;line-height:1.35;color:#9AA3AD">Five paths, traced link by link from the public record. A step is a contact or relationship, not membership or agreement.</div>
+<div style="margin-top:14px;font-size:19px;line-height:1.35;color:#9AA3AD">Seven paths, traced link by link from the public record. A step is a contact or relationship, not membership or agreement.</div>
 </div>
-
 <div style="position:absolute;right:40px;top:58px;width:290px;display:flex;flex-direction:column;gap:12px">
-<div style="padding:14px 18px;border-radius:14px;background:#1B222B;border:1.5px solid #3B4654"><div style="font-family:'Source Serif 4',Georgia,serif;font-size:56px;font-weight:700;line-height:1;color:#F2EDE3">1 step</div><div style="font-size:15px;color:#9AA3AD;margin-top:6px">Shortest path: his own 2012 letter and 2021 post</div></div>
+<div style="padding:14px 18px;border-radius:14px;background:#1B222B;border:1.5px solid #3B4654"><div style="font-family:'Source Serif 4',Georgia,serif;font-size:56px;font-weight:700;line-height:1">1 step</div><div style="font-size:15px;color:#9AA3AD;margin-top:6px">Shortest path: his own 2012 letter and 2021 post</div></div>
 <div style="padding:14px 18px;border-radius:14px;background:#1B222B;border:1.5px solid #3B4654"><div style="font-family:'Source Serif 4',Georgia,serif;font-size:44px;font-weight:700;line-height:1;color:#5FD3B8">None found</div><div style="font-size:15px;color:#9AA3AD;margin-top:6px">Evidence that he or his family are members</div></div>
 </div>
-
-<div style="position:absolute;left:115px;width:870px;top:350px;height:60px;box-sizing:border-box;border-radius:14px;background:#F2EDE3;color:#11151B;display:flex;align-items:center;justify-content:center;gap:14px">
-<div style="font-size:24px;font-weight:800;letter-spacing:1px">ABDUL EL-SAYED</div><div style="font-size:15px;font-weight:500;color:#4A5260">Democratic nominee, U.S. Senate, Michigan</div></div>
-
-<div style="position:absolute;left:40px;right:40px;top:510px;height:1px;background:#232B35"></div>
-<div style="position:absolute;left:40px;top:488px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1">STEP<br><span style="font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3">1</span></div>
-<div style="position:absolute;left:40px;right:40px;top:670px;height:1px;background:#232B35"></div>
-<div style="position:absolute;left:40px;top:648px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1">STEP<br><span style="font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3">2</span></div>
-<div style="position:absolute;left:40px;right:40px;top:830px;height:1px;background:#232B35"></div>
-<div style="position:absolute;left:40px;top:808px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1">STEP<br><span style="font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3">3</span></div>
-<div style="position:absolute;left:40px;right:40px;top:990px;height:1px;background:#232B35"></div>
-<div style="position:absolute;left:40px;top:968px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1">STEP<br><span style="font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3">4</span></div>
-<div style="position:absolute;left:40px;right:40px;top:1150px;height:1px;background:#232B35"></div>
-<div style="position:absolute;left:40px;top:1128px;width:70px;font-size:13px;font-weight:700;letter-spacing:1.5px;color:#9AA3AD;line-height:1.1">STEP<br><span style="font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:#F2EDE3">5</span></div>
-<div style="position:absolute;left:188px;top:410px;height:70px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:190px;top:445px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">signed a 2012 letter backing</div>
-<div style="position:absolute;left:358px;top:410px;height:70px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:360px;top:445px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">called a friend, 2021</div>
-<div style="position:absolute;left:528px;top:410px;height:70px;width:0;border-left:4px dashed #F2B544"></div>
-<div style="position:absolute;left:530px;top:445px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #F2B544;color:#F2B544;font-size:12px;font-weight:600;line-height:1.2;text-align:center">his half-sister</div>
-<div style="position:absolute;left:528px;top:540px;height:100px;width:0;border-left:4px dashed #F2B544"></div>
-<div style="position:absolute;left:530px;top:590px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #F2B544;color:#F2B544;font-size:12px;font-weight:600;line-height:1.2;text-align:center">says their mother was active in</div>
-<div style="position:absolute;left:698px;top:410px;height:70px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:700px;top:445px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">backed by</div>
-<div style="position:absolute;left:698px;top:540px;height:100px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:700px;top:590px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">funded by</div>
-<div style="position:absolute;left:698px;top:700px;height:100px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:700px;top:750px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">tied to</div>
-<div style="position:absolute;left:898px;top:410px;height:70px;width:0;border-left:4px dashed #F2B544"></div>
-<div style="position:absolute;left:900px;top:445px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #F2B544;color:#F2B544;font-size:12px;font-weight:600;line-height:1.2;text-align:center">son-in-law of</div>
-<div style="position:absolute;left:898px;top:540px;height:100px;width:0;border-left:4px dashed #F2B544"></div>
-<div style="position:absolute;left:900px;top:590px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #F2B544;color:#F2B544;font-size:12px;font-weight:600;line-height:1.2;text-align:center">president 2005 to 2010</div>
-<div style="position:absolute;left:898px;top:700px;height:100px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:900px;top:750px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">chapter of</div>
-<div style="position:absolute;left:898px;top:860px;height:100px;width:0;border-left:4px dotted #FF5C5C"></div>
-<div style="position:absolute;left:900px;top:910px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #FF5C5C;color:#FF5C5C;font-size:12px;font-weight:600;line-height:1.2;text-align:center">on a 1994 agenda as "Coordination"</div>
-<div style="position:absolute;left:898px;top:1020px;height:100px;width:0;border-left:4px solid #5FD3B8"></div>
-<div style="position:absolute;left:900px;top:1070px;transform:translate(-50%,-50%);max-width:160px;width:max-content;padding:4px 8px;border-radius:999px;background:#11151B;border:1.5px solid #5FD3B8;color:#5FD3B8;font-size:12px;font-weight:600;line-height:1.2;text-align:center">formed by</div>
-<div style="position:absolute;left:115px;top:480px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#3A1517;border:2px solid #FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,0.12),0 0 28px rgba(255,92,92,0.35);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Mohamed Morsi</div><div style="font-size:11.5px;font-weight:500;color:#FFB3AD;margin-top:2px">Brotherhood leader, Egypt</div></div>
-<div style="position:absolute;left:285px;top:480px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#3A1517;border:2px solid #FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,0.12),0 0 28px rgba(255,92,92,0.35);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Salah Soltan</div><div style="font-size:11.5px;font-weight:500;color:#FFB3AD;margin-top:2px">Brotherhood figure</div></div>
-<div style="position:absolute;left:455px;top:480px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Half-sister</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">her 2012 posts</div></div>
-<div style="position:absolute;left:455px;top:640px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#3A1517;border:2px solid #FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,0.12),0 0 28px rgba(255,92,92,0.35);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Muslim Brotherhood</div></div>
-<div style="position:absolute;left:625px;top:480px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Super PAC</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">he cannot direct</div></div>
-<div style="position:absolute;left:625px;top:640px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Nonprofit</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">gave $50,000</div></div>
-<div style="position:absolute;left:625px;top:800px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#3A1517;border:2px solid #FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,0.12),0 0 28px rgba(255,92,92,0.35);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Salah Soltan</div><div style="font-size:11.5px;font-weight:500;color:#FFB3AD;margin-top:2px">Brotherhood figure</div></div>
-<div style="position:absolute;left:825px;top:480px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Dr. Tayeb Jukaku</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">father-in-law</div></div>
-<div style="position:absolute;left:825px;top:640px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">CAIR-Michigan</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">state chapter</div></div>
-<div style="position:absolute;left:825px;top:800px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">National CAIR</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">civil rights group</div></div>
-<div style="position:absolute;left:825px;top:960px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#1B222B;border:2px solid #3B4654;color:#F2EDE3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Palestine Committee</div><div style="font-size:11.5px;font-weight:500;color:#9AA3AD;margin-top:2px">1990s U.S. network</div></div>
-<div style="position:absolute;left:825px;top:1120px;width:150px;height:60px;box-sizing:border-box;border-radius:10px;background:#3A1517;border:2px solid #FF5C5C;color:#FFE9E7;box-shadow:0 0 0 6px rgba(255,92,92,0.12),0 0 28px rgba(255,92,92,0.35);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6px"><div style="font-size:14.5px;font-weight:700;line-height:1.15">Muslim Brotherhood</div></div>
-
-<div style="position:absolute;left:40px;top:1230px;width:1000px;display:flex;gap:16px">
-<div style="flex:1.25;padding:18px 20px;border-radius:14px;background:#2A1416;border:2px solid #FF5C5C">
-<div style="font-size:14px;font-weight:800;letter-spacing:2px;color:#FF5C5C">THE WEAKEST LINK</div>
-<div style="font-size:16.5px;line-height:1.42;margin-top:8px;color:#FBE7E4">National CAIR to the Palestine Committee. A 1994 committee agenda lists CAIR on a line marked "Coordination." In 2009 Judge Solis found a prima facie case of CAIR's involvement and sealed the co-conspirator list. CAIR was never charged and denies any tie to Hamas. Its co-founder Omar Ahmad is documented as a committee member.</div>
+<div style="position:absolute;left:120px;width:1250px;top:350px;height:60px;box-sizing:border-box;border-radius:14px;background:#F2EDE3;color:#11151B;display:flex;align-items:center;justify-content:center;gap:14px"><div style="font-size:24px;font-weight:800;letter-spacing:1px">ABDUL EL-SAYED</div><div style="font-size:15px;font-weight:500;color:#4A5260">Democratic nominee, U.S. Senate, Michigan</div></div>
+<div class="rule" style="top:450px"></div><div class="step" style="top:428px">STEP<br><span>1</span></div>
+<div class="rule" style="top:610px"></div><div class="step" style="top:588px">STEP<br><span>2</span></div>
+<div class="rule" style="top:770px"></div><div class="step" style="top:748px">STEP<br><span>3</span></div>
+<div class="rule" style="top:930px"></div><div class="step" style="top:908px">STEP<br><span>4</span></div>
+<div class="rule" style="top:1090px"></div><div class="step" style="top:1068px">STEP<br><span>5</span></div>
+<div class="line" style="left:196px;top:410px;height:70px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:198px;top:445px;border-color:#5FD3B8;color:#5FD3B8">signed a 2012 letter backing</div>
+<div class="node red" style="left:120px;top:480px"><div class="nm">Mohamed Morsi</div><div class="sub">Brotherhood leader, Egypt</div></div>
+<div class="pnum" style="left:120px;top:350px"></div>
+<div class="line" style="left:378px;top:410px;height:70px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:380px;top:445px;border-color:#5FD3B8;color:#5FD3B8">called a friend, 2021</div>
+<div class="node" style="left:302px;top:480px"><div class="nm">Mohamed Soltan</div><div class="sub">convicted in Egypt, 2015; charge Disputed</div></div>
+<div class="line" style="left:378px;top:544px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:380px;top:592px;border-color:#5FD3B8;color:#5FD3B8">son of</div>
+<div class="node red" style="left:302px;top:640px"><div class="nm">Salah Soltan</div><div class="sub">Brotherhood figure</div></div>
+<div class="pnum" style="left:302px;top:350px"></div>
+<div class="line" style="left:560px;top:410px;height:70px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:562px;top:445px;border-color:#F2B544;color:#F2B544">his half-sister</div>
+<div class="node" style="left:484px;top:480px"><div class="nm">Half-sister</div><div class="sub">her 2012 posts</div></div>
+<div class="line" style="left:560px;top:544px;height:96px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:562px;top:592px;border-color:#F2B544;color:#F2B544">says their mother was active in</div>
+<div class="node red" style="left:484px;top:640px"><div class="nm">Muslim Brotherhood</div></div>
+<div class="pnum" style="left:484px;top:350px"></div>
+<div class="line" style="left:742px;top:410px;height:70px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:744px;top:445px;border-color:#5FD3B8;color:#5FD3B8">backed by</div>
+<div class="node" style="left:666px;top:480px"><div class="nm">Super PAC</div><div class="sub">he cannot direct</div></div>
+<div class="line" style="left:742px;top:544px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:744px;top:592px;border-color:#5FD3B8;color:#5FD3B8">funded by, $50,000</div>
+<div class="node" style="left:666px;top:640px"><div class="nm">ACMER</div><div class="sub">Soltan's nonprofit</div></div>
+<div class="line" style="left:742px;top:704px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:744px;top:752px;border-color:#5FD3B8;color:#5FD3B8">led by</div>
+<div class="node" style="left:666px;top:800px"><div class="nm">Mohamed Soltan</div><div class="sub">president</div></div>
+<div class="line" style="left:742px;top:864px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:744px;top:912px;border-color:#5FD3B8;color:#5FD3B8">son of</div>
+<div class="node red" style="left:666px;top:960px"><div class="nm">Salah Soltan</div><div class="sub">Brotherhood figure</div></div>
+<div class="pnum" style="left:666px;top:350px"></div>
+<div class="line" style="left:924px;top:410px;height:70px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:926px;top:445px;border-color:#F2B544;color:#F2B544">son-in-law of</div>
+<div class="node" style="left:848px;top:480px"><div class="nm">Dr. Tayeb Jukaku</div><div class="sub">father-in-law</div></div>
+<div class="line" style="left:924px;top:544px;height:96px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:926px;top:592px;border-color:#F2B544;color:#F2B544">president 2005 to 2010</div>
+<div class="node" style="left:848px;top:640px"><div class="nm">CAIR-Michigan</div><div class="sub">state chapter</div></div>
+<div class="line" style="left:924px;top:704px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:926px;top:752px;border-color:#5FD3B8;color:#5FD3B8">chapter of</div>
+<div class="node" style="left:848px;top:800px"><div class="nm">National CAIR</div><div class="sub">civil rights group</div></div>
+<div class="line" style="left:924px;top:864px;height:96px;border-left:4px dotted #FF5C5C"></div>
+<div class="pill" style="left:926px;top:912px;border-color:#FF5C5C;color:#FF5C5C">on a 1994 agenda as "Coordination"</div>
+<div class="node" style="left:848px;top:960px"><div class="nm">Palestine Committee</div><div class="sub">1990s U.S. network</div></div>
+<div class="line" style="left:924px;top:1024px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:926px;top:1072px;border-color:#5FD3B8;color:#5FD3B8">formed by</div>
+<div class="node red" style="left:848px;top:1120px"><div class="nm">Muslim Brotherhood</div></div>
+<div class="pnum" style="left:848px;top:350px"></div>
+<div class="line" style="left:1106px;top:410px;height:70px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:1108px;top:445px;border-color:#5FD3B8;color:#5FD3B8">officer 2006 to 2007</div>
+<div class="node" style="left:1030px;top:480px"><div class="nm">Michigan MSA</div><div class="sub">U-M student chapter</div></div>
+<div class="line" style="left:1106px;top:544px;height:96px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:1108px;top:592px;border-color:#F2B544;color:#F2B544">chapter of</div>
+<div class="node" style="left:1030px;top:640px"><div class="nm">National MSA</div><div class="sub">helped found ISNA</div></div>
+<div class="line" style="left:1106px;top:704px;height:96px;border-left:4px dotted #FF5C5C"></div>
+<div class="pill" style="left:1108px;top:752px;border-color:#FF5C5C;color:#FF5C5C">in its "orbit," per IPT</div>
+<div class="node red" style="left:1030px;top:800px"><div class="nm">Muslim Brotherhood</div></div>
+<div class="pnum" style="left:1030px;top:350px"></div>
+<div class="line" style="left:1288px;top:410px;height:70px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:1290px;top:445px;border-color:#5FD3B8;color:#5FD3B8">son of</div>
+<div class="node" style="left:1212px;top:480px"><div class="nm">Father</div><div class="sub">relative, context only</div></div>
+<div class="line" style="left:1288px;top:544px;height:96px;border-left:4px solid #5FD3B8"></div>
+<div class="pill" style="left:1290px;top:592px;border-color:#5FD3B8;color:#5FD3B8">unpaid director</div>
+<div class="node" style="left:1212px;top:640px"><div class="nm">Life for Relief and Development</div><div class="sub">charity (LRD)</div></div>
+<div class="line" style="left:1288px;top:704px;height:96px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:1290px;top:752px;border-color:#F2B544;color:#F2B544">led by</div>
+<div class="node" style="left:1212px;top:800px"><div class="nm">Two LRD leaders</div><div class="sub">named in a 1992 directory</div></div>
+<div class="line" style="left:1288px;top:864px;height:96px;border-left:4px dashed #F2B544"></div>
+<div class="pill" style="left:1290px;top:912px;border-color:#F2B544;color:#F2B544">listed in a directory of</div>
+<div class="node red" style="left:1212px;top:960px"><div class="nm">Muslim Brotherhood</div></div>
+<div class="pnum" style="left:1212px;top:350px"></div>
+<div style="position:absolute;left:40px;top:1280px;width:1360px;display:flex;gap:16px">
+<div class="panel w"><div class="ph" style="color:#FF5C5C">THE WEAKEST LINK, PATH 5</div><div class="pt" style="color:#FBE7E4">National CAIR to the Palestine Committee. A 1994 committee agenda lists CAIR on a line marked "Coordination." In 2009 Judge Solis found a prima facie case of CAIR's involvement and sealed the co-conspirator list. CAIR was never charged and denies any tie to Hamas.</div></div>
+<div class="panel"><div class="ph" style="color:#F2B544">PATHS 2, 4, 6 AND 7</div><div class="pt">Paths 2 and 4 pass through Mohamed Soltan. His 2015 Egyptian conviction is Documented; "funding the Brotherhood" is Disputed, and "in absentia" conflicts with the record. His tie to his father is family. Path 6 rests on a characterization (the "orbit" label), Disputed. Path 7 rests on two directory entries, Reported, and the father is a relative.</div></div>
+<div class="panel"><div class="ph" style="color:#5FD3B8">WHAT THE RECORD DOES NOT SHOW</div><div class="pt">No evidence that El-Sayed or his family belongs to the Brotherhood. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.</div></div>
 </div>
-<div style="flex:1;padding:18px 20px;border-radius:14px;background:#1B222B;border:1.5px solid #3B4654">
-<div style="font-size:14px;font-weight:800;letter-spacing:2px;color:#5FD3B8">WHAT THE RECORD DOES NOT SHOW</div>
-<div style="font-size:16.5px;line-height:1.42;margin-top:8px;color:#F2EDE3">No evidence that El-Sayed or his family belongs to the Brotherhood. Paths through relatives, donors or group histories do not describe his own acts. Nobody is accused of wrongdoing by appearing here.</div>
-</div>
-</div>
-
-<div style="position:absolute;left:40px;top:1510px;width:1000px;display:flex;flex-direction:column;gap:12px">
+<div style="position:absolute;left:40px;top:1560px;width:1360px;display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;gap:28px;flex-wrap:wrap">
-<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;height:0;border-top:4px solid #5FD3B8"></div><div style="font-size:15px;color:#F2EDE3">Documented: primary source</div></div>
-<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;height:0;border-top:4px dashed #F2B544"></div><div style="font-size:15px;color:#F2EDE3">Reported: one outlet or an inference</div></div>
-<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;height:0;border-top:4px dotted #FF5C5C"></div><div style="font-size:15px;color:#F2EDE3">Disputed: contested by parties or courts</div></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;border-top:4px solid #5FD3B8"></div><div style="font-size:15px">Documented: primary source</div></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;border-top:4px dashed #F2B544"></div><div style="font-size:15px">Reported: one outlet or an inference</div></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:44px;border-top:4px dotted #FF5C5C"></div><div style="font-size:15px">Disputed: contested by parties or courts</div></div>
 </div>
-<div style="font-size:13.5px;line-height:1.45;color:#9AA3AD">Sources: New York Times, Oct. 21, 2026; Al-Ahram Gate, Nov. 2012; Substack post, 2021; FEC filings; Michigan Daily, 2006; Free Beacon; U.S. v. Holy Land Foundation, N.D. Tex., Doc. 1356 and Gov. Exhibit 3-78; U.S. v. El-Mezain, 5th Cir. 2011.</div>
+<div style="font-size:13.5px;line-height:1.45;color:#9AA3AD">Sources: New York Times, Oct. 21, 2026; Al-Ahram Gate, Nov. 2012; Substack post, 2021; FEC filings; ACMER and LRD IRS filings; NBC News, AP and Daily News Egypt on the 2015 verdict; Michigan Daily, 2006; Investigative Project on Terrorism, Oct. 2026; Free Beacon; U.S. v. Holy Land Foundation, N.D. Tex., Doc. 1356 and Gov. Exhibit 3-78; U.S. v. El-Mezain, 5th Cir. 2011.</div>
 </div>
-
-</div>
-</x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1620}}'>
-class Component extends DCLogic {
-  renderVals() {
-    return {};
-  }
-}
-</script>
-</body>
-</html>
+</div></body></html>

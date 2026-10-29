@@ -24,17 +24,24 @@ He is the son of Egyptian immigrants. The University of Michigan described him i
 | Date | What the record shows | Rating |
 | --- | --- | --- |
 | 1978 | Father left Egypt (his memoir, as reported) | Reported |
+| 1970s | His half-sister's 2012 posts say their mother was active in the Brotherhood as a college student in Egypt and that "my family has long been MB"; he calls it hearsay. If the name match below holds, her age in the 2004 Tribune places her student years in the late 1970s and early 1980s, so "early 1970s" conflicts with that record | Reported; posts unverified |
+| 1983 | A physician with the mother's reported name graduated from Alexandria University School of Medicine, per a school staff page that names no family. The link is by name | Reported |
+| by early 1985 | Permanent residence in the U.S. implied by the five-year naturalization route used in 1990. Entry date and her whereabouts in Oct. 1984 are not public | Reported (inference) |
 | 1984-10-31 | His reported birth date. Birthplace unverified: Rochester Hills (Bridge Michigan), Bloomfield Hills (University of Michigan), "Metro Detroit" (Soros page) | Reported |
 | about 1987 | Parents divorced when he was about three; the original decree and its date are not found | Reported |
 | 1988-09-27 | Motion and stipulation to modify the dissolution decree as to custody and support (CaseNet 1388DR026716) | Reported |
 | 1988-10-11 | Judgment ending one party's support obligation; the child is not named and custody is not shown | Reported |
-| 1990-03-22 | Two people with the names of his father and mother admitted to citizenship in Kansas City; both lived in Columbia, MO. The link to his parents is by name only | Reported |
+| 1990-03-22 | Two people with the names of his father and mother admitted to citizenship in Kansas City; both lived in Columbia, MO. Each requested a name change at naturalization, per her petition. The link to his parents is by name only | Reported |
 | about 1991 | A Mohamed El-Sayed, M.U. assistant professor of engineering, appears with a wife named Jacqueline (undated Columbia Missourian clipping) | Reported |
 | 1991-11-14 | Name-change petition filed by Abdulrahman Mohamed "by Next Friend Mohamed El-Sayed" (CaseNet 1391CC044966) | Documented |
 | 1991-12-09 | Court changes the name to Abdulrahman Mohamed El-Sayed, uncontested | Documented |
 | 1991-12-20 to 1992-01-03 | Legal notice published Dec 20 and 27, 1991 and Jan 3, 1992; newspaper not yet identified | Documented |
+| 1999 to 2004 | Mother worked at the Islamic American Relief Agency's U.S. office in Columbia, MO. The Columbia Daily Tribune of Oct. 14, 2004 quoted her as working there in programming since 1999; the New York Times (Oct. 21, 2026) confirms 1999 to 2004 from her own account, as a low-ranking employee never accused of wrongdoing | Documented (printed 2004; Times interview) |
+| 2004 | Tribune, Oct. 14, 2004, reports federal agents at the agency's Columbia office; Treasury designated the agency that year, and it closed | Documented (Tribune); designation per Justice Department |
+| 2010-06-23 | Government witness list in U.S. v. Islamic American Relief Agency (Doc. 518) names her a probable witness, a former employee to testify about her work. A witness list does not show that she testified. She is not a defendant | Documented (that it is listed) |
+| 2026-10-21 | New York Times reports she is a psychiatric nurse practitioner in Missouri and spoke to the Times about the agency job | Reported |
 
 Nothing here places either parent, or him, in Michigan or Missouri on October 31, 1984, and nothing states his birthplace.
 
-Rating: Documented, except the father's current academic post (Reported).
+Her name, birth date, addresses and current employer are left out on purpose. Rating: Documented, except the father's current academic post (Reported).
 
