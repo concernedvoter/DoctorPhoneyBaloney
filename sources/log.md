@@ -165,3 +165,6 @@ Results: his account returns ONE post before 2014 (Feb 13, 2013, a public health
 
 ## 2026-10-29 NY Post article on LRD (print to PDF)
 - Read the PDF print of the New York Post article (Ryan King, Oct 29, 2026) saved in sources/text. It attributes the board-seat finding to the Free Beacon and adds no new documents. Differences from the record noted in section 14 and claim L08. The print file is newspaper copyright and its metadata carries the reader's name, so it is kept local only (gitignored; listed in sources/EXCLUDED.md).
+
+## 2026-10-29 IPT Part 3 second pass
+- Re-read IPT Part 3 for dated items not yet recorded; page links no primary documents and has no corrections. Added a dated table and chapter-structure note to Stage 2 and claim W06. Feb 14, 2006 Carroll vigil planning noted as context for his Michigan Daily column.
